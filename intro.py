@@ -2,4 +2,4 @@
 
 nombre = "miNombre"
 
-print("el tamaño del string es de " , len(nombre) , "caracteres")
+print("El primer caracter de nombre es: " , nombre[0])
