@@ -1,8 +1,6 @@
 
 
-nombre = "mi Nombre"
-print(nombre[0:2])
-print(nombre[:2])
-print(nombre[3:])
-print(nombre[3:9])
-print(nombre[:])
+nombre = "Rodolfo"
+apellido = "Aravena"
+print(f"{nombre} {apellido}")
+print(f"{nombre[0]} {2 + 5}")
