@@ -1,17 +1,23 @@
 
+print("Calculadora")
 
-nombre = "rodolFo"
-print("upper " + nombre.upper())
-print("lower " + nombre.lower())
-print("capitalize " + nombre.capitalize())
-print("strip " + nombre.strip())
-print("strip.capitalize " + nombre.strip().capitalize())
-print("title " + nombre.title())
-print("lstrip " + nombre.lstrip())
-print("rstrip " + nombre.rstrip())
-print(nombre.find("do"))
-print("replace(o por a) " + nombre.replace("o", "a"))
-print("do" in nombre)
-print("do" not in nombre)
-
-
+num1 = int(input("Ingrese numero 1: "))
+num2 = int(input("ingrese numero 2: "))
+operador = input("ingrese operador ( +, -, *, / )")
+resultado = 0
+flag = True
+if operador=="+":
+    resultado=num1+num2
+elif operador=="-":
+    resultado=num1-num2
+elif operador=="*":
+    resultado=num1*num2
+elif operador=="/":
+    resultado=num1/num2
+else:
+    flag=False
+if flag:
+    print(num1 , operador, num2, " = ", resultado)
+else:
+    print("opcion errada")
+    
