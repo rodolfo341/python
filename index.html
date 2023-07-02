@@ -1,11 +1,89 @@
+html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi página web</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+         header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+         nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+         nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+         main {
+            margin: 20px;
+        }
+         article {
+            margin-bottom: 20px;
+        }
+         aside {
+            float: right;
+            width: 30%;
+            margin: 20px;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+         footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+     <main>
+        <article>
+            <h2>Artículo 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim ante sit amet sem varius, eget luctus quam dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed et nisi in mi pulvinar auctor. Fusce in ligula auctor, pharetra metus sit amet, varius neque. Integer consectetur, mauris non cursus ultrices, turpis neque facilisis turpis, ac porttitor sapien diam a nibh.</p>
+            <img src="ruta_de_la_imagen.jpg" alt="Imagen 1">
+        </article>
+         <article>
+            <h2>Artículo 2</h2>
+            <p>Phasellus in semper velit. Cras ac vestibulum enim. Nam tristique, erat et feugiat feugiat, mauris mi convallis diam, sed fringilla diam turpis sed mi. Quisque euismod, purus vitae laoreet luctus, ligula nulla feugiat dui, nec lacinia lectus erat eu enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <img src="ruta_de_la_imagen.jpg" alt="Imagen 2">
+        </article>
+         <article>
+            <h2>Artículo 3</h2>
+            <p>Aliquam erat volutpat. Nulla facilisi. Sed vel volutpat arcu. Aenean at semper nunc. Quisque finibus, diam ac auctor venenatis, turpis elit cursus elit, non fringilla neque eros et metus. Praesent cursus nisl vitae nunc scelerisque, eget facilisis quam tincidunt. Donec nec dignissim lectus, quis luctus eros.</p>
+            <img src="ruta_de_la_imagen.jpg" alt="Imagen 3">
+        </article>
+         <aside>
+            <h3>Información adicional</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim ante sit amet sem varius, eget luctus quam dictum.</p>
+        </aside>
+    </main>
+     <footer>
+        <p>© 2022 Mi página web. Todos los derechos reservados.</p>
+        <p>Dirección: Calle Principal, Ciudad, País</p>
+        <p>Teléfono: 123456789</p>
+    </footer>
 </body>
 </html>
