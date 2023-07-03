@@ -8,8 +8,10 @@
 #     continuar = respuesta.lower() ==
  
 
-def saludar (nombre):
-    return f"Hola {nombre}"
+def sumar(a,b):
+    return a + b
 
-nombre = input("Dime tu nombre: ")    
-print(saludar(nombre))
+numero_1 = int(input("Numero 1: "))
+numero_2 = int(input("Numero 2: "))
+
+print(f"{numero_1} + {numero_2} = {sumar(numero_1,numero_2)}")
