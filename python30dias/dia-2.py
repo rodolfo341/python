@@ -1,7 +1,10 @@
 import msvcrt
-def esperar_tecla_para_continuar():
+def esperar_tecla_para_continuar():#{
     print("Presiona cualquier tecla para continuar...")
     msvcrt.getch()
+
+# Introducción
+# Dia 2 de 30 Dias del desafio Python
 
 print("declaro las variables")
 esperar_tecla_para_continuar()
@@ -14,15 +17,14 @@ edad = 51
 esta_casado = True
 habilidades = ['HTML', 'CSS', 'JS', 'React', 'Python']
 informacion_personal = {
-    'nombre':'Rodolfo', 
-    'apellido':'aravena', 
-    'pais':'Chile',
-    'ciudad':'Santiago'
-    }
+    'nombre':   'Rodolfo', 
+    'apellido': 'Aravena', 
+    'pais':     'Chile',
+    'ciudad':   'Santiago'
+}
 
 # Imprimir los valores almacenados en las variables
 print("Imprimo las variables")
-esperar_tecla_para_continuar()
 
 print('Nombre:', nombre)
 print('Nombre longitud(length):', len(nombre))
