@@ -1,36 +1,30 @@
 
-# Introduction
-# Day 1 - 30DaysOfPython Challenge
+import msvcrt
 
-print(2 + 3)   # addition(+)
-print(3 - 1)   # subtraction(-)
-print(2 * 3)   # multiplication(*)
-print(3 / 2)   # division(/)
-print(3 ** 2)  # exponential(**)
-print(3 % 2)   # modulus(%)
-print(3 // 2)  # Floor division operator(//)
+def esperar_tecla_para_continuar():
+    print("Presiona cualquier tecla para continuar...")
+    msvcrt.getch()
 
-# Checking data types
+# Introducción
+# Dia 1 de 30 Dias del desafio Python
 
-print(type(10))                  # Int
-print(type(3.14))                # Float
-print(type(1 + 3j))              # Complex
-print(type('Asabeneh'))          # String
-print(type([1, 2, 3]))           # List
-print(type({'name':'Asabeneh'})) # Dictionary
-print(type({9.8, 3.14, 2.7}))    # Set
-print(type((9.8, 3.14, 2.7)))    # Tuple
+print("Operaciones básicas")
+print("suma",2 + 3)                 # Suma(+) 5
+print("Resta",3 - 1)                # Resta(-) 2
+print("Multiplicación",2 * 3)       # Multiplicación(*) 6
+print("División",3 / 2)             # División(/) 1.5
+print("Exponeciación",5 ** 3)       # Eexponenciación(**) 125
+print("Módulo",3 % 2)               # Moduo(%) 1
+print("Divición al piso",3 // 2)    # División redondeo(//) 1
 
+esperar_tecla_para_continuar()
+# Comprobar de tipos de datos
 
-
-
-
-
-# continuar = True
-# while continuar:
-
-    
-
-#     respuesta = input("¿Deseas continuar? (s/n): ")
-#     print("Continuando..." if respuesta.lower() == "s" else "Saliendo...")
-#     continuar = respuesta.lower() == "s"
+print(type(10))                     # Int
+print(type(3.14))                   # Float
+print(type(1 + 3j))                 # Complex
+print(type('Rodolfo'))              # String
+print(type([1, 2, 3]))              # List
+print(type({'Nombre':'Aravena'}))   # Dictionary
+print(type({9.8, 3.14, 2.7}))       # Set
+print(type((9.8, 3.14, 2.7)))       # Tuple

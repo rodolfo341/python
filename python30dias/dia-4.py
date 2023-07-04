@@ -1,40 +1,42 @@
 
-# Single line comment
-letter = 'P'                # A string could be a single character or a bunch of texts
-print(letter)               # P
-print(len(letter))          # 1
-greeting = 'Hello, World!'  # String could be  a single or double quote,"Hello, World!"
-print(greeting)             # Hello, World!
-print(len(greeting))        # 13
-sentence = "I hope you are enjoying 30 days of python challenge"
-print(sentence)
+# Comentario de una sola línea
+letra = 'P'                 # Una cadena puede ser un solo carácter o un montón de textos
+print(letra)                # P
+print(len(letra))           # 1
+saludo = 'Hola, mundo!'     # La cadena puede ser una comilla simple o doble, "¡Hola, mundo!"
+print(saludo)               # Hola, mundo!
+print(len(saludo))          # 13
+sentencia = "Espero que estés disfrutando de 30 días del desafío de Python."
+print(sentencia)
 
-# Multiline String
-multiline_string = '''I am a teacher and enjoy teaching.
-I didn't find anything as rewarding as empowering people.
-That is why I created 30 days of python.'''
-print(multiline_string)
-# Another way of doing the same thing
-multiline_string = """I am a teacher and enjoy teaching.
-I didn't find anything as rewarding as empowering people.
-That is why I created 30 days of python."""
-print(multiline_string)
+# Cadena multilínea
+# Con comillas simples
+cadena_multilinea = '''Soy profesor y disfruto enseñando.
+No encontré nada tan gratificante como empoderar a las personas.
+Es por eso que creé 30 días de python.'''
+print(cadena_multilinea)
+# Otra forma de hacer lo mismo
+# con comillas dobles
+cadena_multilinea = """Soy profesor y disfruto enseñando.
+No encontré nada tan gratificante como empoderar a las personas.
+Es por eso que creé 30 días de python."""
+print(cadena_multilinea)
 
-# String Concatenation
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-space = ' '
-full_name = first_name  +  space + last_name
-print(full_name) # Asabeneh Yetayeh
-# Checking length of a string using len() builtin function
-print(len(first_name))  # 8
-print(len(last_name))   # 7
-print(len(first_name) > len(last_name)) # True
-print(len(full_name)) # 15
+# Concatenación de cadenas
+nombre = 'Rodolfo'
+apellido = 'Aravena'
+espacio = ' '
+nombre_completo = nombre  +  espacio + apellido
+print(nombre_completo) # Rodolfo Aravena
+# Verificación de la longitud de una cadena usando la función incorporada len()
+print(len(nombre))                  # 8
+print(len(apellido))                # 7
+print(len(nombre) > len(apellido))  # True
+print(len(nombre_completo))         # 15
 
-#### Unpacking characters 
-language = 'Python'
-a,b,c,d,e,f = language # unpacking sequence characters into variables
+#### desesctructurar caracteres
+lenguaje = 'Python'
+a,b,c,d,e,f = lenguaje              # Desestructurar caracteres de secuencia en variables
 print(a) # P
 print(b) # y
 print(c) # t 
@@ -42,207 +44,211 @@ print(d) # h
 print(e) # o
 print(f) # n
 
-# Accessing characters in strings by index
-language = 'Python'
-first_letter = language[0]
-print(first_letter) # P
-second_letter = language[1]
-print(second_letter) # y
-last_index = len(language) - 1
-last_letter = language[last_index]
-print(last_letter) # n
+# Acceso a caracteres en cadenas por índice
+lenguaje = 'Python'
+primera_letra = lenguaje[0]
+print(primera_letra) # P
+segunda_letra = lenguaje[1]
+print(segunda_letra) # y
+ultimo_indice = len(lenguaje) - 1
+ultima_letra = lenguaje[ultimo_indice]
+print(ultima_letra) # n
 
-# If we want to start from right end we can use negative indexing. -1 is the last index
-language = 'Python'
-last_letter = language[-1]
-print(last_letter) # n
-second_last = language[-2]
-print(second_last) # o
+# Si queremos comenzar desde el extremo derecho, podemos usar la indexación negativa. 
+# -1 es el último índice
+lenguaje = 'Python'
+ultima_letra = lenguaje[-1]
+print(ultima_letra) # n
+pen_ultimo = lenguaje[-2]
+print(pen_ultimo) # o
 
-# Slicing
+# rebanar
 
-language = 'Python'
-first_three = language[0:3] # starts at zero index and up to 3 but not include 3
-last_three = language[3:6]
-print(last_three) # hon
-# Another way
-last_three = language[-3:]
-print(last_three)   # hon
-last_three = language[3:]
-print(last_three)   # hon
+lenguaje = 'Python'
+primeros_tres = lenguaje[0:3] # starts at zero index and up to 3 but not include 3
+ultimos_tres = lenguaje[3:6]
+print(ultimos_tres) # hon
+# De otra manera
+ultimos_tres = lenguaje[-3:]
+print(ultimos_tres)   # hon
+ultimos_tres = lenguaje[3:]
+print(ultimos_tres)   # hon
 
-# Skipping character while splitting Python strings
-language = 'Python'
-pto = language[0:6:2] # 
+# Saltar caracteres al dividir cadenas de Python
+lenguaje = 'Python'
+pto = lenguaje[0:6:2] # 
 print(pto) # pto
 
-# Escape sequence
-print('I hope every one enjoying the python challenge.\nDo you ?') # line break
-print('Days\tTopics\tExercises')
-print('Day 1\t3\t5')
-print('Day 2\t3\t5')
-print('Day 3\t3\t5')
-print('Day 4\t3\t5')
-print('This is a back slash  symbol (\\)') # To write a back slash
-print('In every programming language it starts with \"Hello, World!\"')
+# Secuencias de escape
+print('Espero que todos disfruten del desafío Python.\n ¿Y tú?') # salto de línea
+print('Días\tTemas\tEjercicios')
+print('Dia 1\t3\t5')
+print('Dia 2\t3\t5')
+print('Dia 3\t3\t5')
+print('Dia 4\t3\t5')
+print('Este es un símbolo de slash (\\)')                       # Para escribir una slash
+print('En todo lenguaje de programación comienza con \"Hola, mundo!\"')
 
-## String Methods
-# capitalize(): Converts the first character the string to Capital Letter
+# Métodos de cadena
+# capitalize(): Convierte el primer carácter de la cadena a letra mayúscula
 
-challenge = 'thirty days of python'
-print(challenge.capitalize()) # 'Thirty days of python'
+desafio = 'treinta dias de python'
+print(desafio.capitalize())         # 'treinta dias de python'
 
-# count(): returns occurrences of substring in string, count(substring, start=.., end=..)
+# count(): devuelve apariciones de subcadena en cadena, count(substring, start=.., end=..)
 
-challenge = 'thirty days of python'
-print(challenge.count('y')) # 3
-print(challenge.count('y', 7, 14)) # 1
-print(challenge.count('th')) # 2`
+desafio = 'treinta dias de python'
+print(desafio.count('y'))           # 3
+print(desafio.count('y', 7, 14))    # 1
+print(desafio.count('th'))          # 2`
 
-# endswith(): Checks if a string ends with a specified ending
+# endswith(): Comprueba si una cadena termina con un final específico
 
-challenge = 'thirty days of python'
-print(challenge.endswith('on'))   # True
-print(challenge.endswith('tion')) # False
+desafio = 'treinta dias de python'
+print(desafio.endswith('on'))   # True
+print(desafio.endswith('tion')) # False
 
-# expandtabs(): Replaces tab character with spaces, default tab size is 8. It takes tab size argument
+# expandtabs(): Reemplaza el carácter de tabulación con espacios, 
+# el tamaño de tabulación predeterminado es 8. 
+# Toma el argumento de tamaño de tabulación
 
-challenge = 'thirty\tdays\tof\tpython'
-print(challenge.expandtabs())   # 'thirty  days    of      python'
-print(challenge.expandtabs(10)) # 'thirty    days      of        python'
+desafio = 'treinta\tDias\tde\tpython'
+print(desafio.expandtabs())   # 'treinta  Dias    de      python'
+print(desafio.expandtabs(10)) # 'treinta    Dias      de        python'
 
-# find(): Returns the index of first occurrence of substring
+# find(): Devuelve el índice de la primera aparición de la subcadena
 
-challenge = 'thirty days of python'
-print(challenge.find('y'))  # 5
-print(challenge.find('th')) # 0
+desafio = 'treinta dias de python'
+print(desafio.find('y'))  # 5
+print(desafio.find('th')) # 0
 
-# format()	formats string into nicer output    
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-job = 'teacher'
-country = 'Finland'
-sentence = 'I am {} {}. I am a {}. I live in {}.'.format(first_name, last_name, job, country)
-print(sentence) # I am Asabeneh Yetayeh. I am a teacher. I live in Finland.
+# format()	formatea la cadena en una salida más agradable    
+nombre = 'Rodolfo'
+apellido = 'Aravena'
+trabajo = 'profesor'
+pais = 'Chile'
+sentencia = 'Yo soy {} {}. Soy un {}. Vivo {}.'.format(nombre, apellido, trabajo, pais)
+print(sentencia) # Yo soy Rodolfo Aravena. Soy un profesor. Vivo en Chile.
 
-radius = 10
+radio = 10
 pi = 3.14
-area = pi # radius ## 2
-result = 'The area of circle with {} is {}'.format(str(radius), str(area))
-print(result) # The area of circle with 10 is 314.0
+area = pi                           # radio ## 2
+resultado = 'El área del círculo con radio de {} es {}'.format(str(radio), str(area))
+print(resultado) # The area of circle con radio de 10 is 314.0
 
-# index(): Returns the index of substring
-challenge = 'thirty days of python'
-print(challenge.find('y'))  # 5
-print(challenge.find('th')) # 0
+# index(): Devuelve el índice de la subcadena
+desafio = 'treinta dias de python'
+print(desafio.find('y'))            # 5
+print(desafio.find('th'))           # 0
 
-# isalnum(): Checks alphanumeric character
+# isalnum(): Comprueba el carácter alfanumérico
 
-challenge = 'ThirtyDaysPython'
-print(challenge.isalnum()) # True
+desafio = 'treinta dias de Python'
+print(desafio.isalnum())            # True
 
-challenge = '30DaysPython'
-print(challenge.isalnum()) # True
+desafio = '30 dias de Python'
+print(desafio.isalnum())            # True
 
-challenge = 'thirty days of python'
-print(challenge.isalnum()) # False
+desafio = 'treinta dias de python'
+print(desafio.isalnum())            # False
 
-challenge = 'thirty days of python 2019'
-print(challenge.isalnum()) # False
+desafio = 'treinta dias de python 2019'
+print(desafio.isalnum())            # False
 
-# isalpha(): Checks if all characters are alphabets
+# isalpha(): Comprueba si todos los caracteres son alfabetos
 
-challenge = 'thirty days of python'
-print(challenge.isalpha()) # True
+desafio = 'treinta dias de python'
+print(desafio.isalpha())            # True
 num = '123'
-print(num.isalpha())      # False
+print(num.isalpha())                # False
 
 # isdecimal(): Checks Decimal Characters
 
-challenge = 'thirty days of python'
-print(challenge.find('y'))  # 5
-print(challenge.find('th')) # 0
+desafio = 'treinta dias de python'
+print(desafio.find('y'))             # 5
+print(desafio.find('th'))            # 0
 
-# isdigit(): Checks Digit Characters
+# isdigit(): Verifica si hay digitos en un caracter
 
-challenge = 'Thirty'
-print(challenge.isdigit()) # False
-challenge = '30'
-print(challenge.digit())   # True
+desafio = 'treinta'
+print(desafio.isdigit())            # False
+desafio = '30'
+print(desafio.isdigit())              # True
 
-# isdecimal():Checks decimal characters
+# isdecimal():Comprueba los caracteres decimales
 
 num = '10'
-print(num.isdecimal()) # True
+print(num.isdecimal())              # True
 num = '10.5'
-print(num.isdecimal()) # False
+print(num.isdecimal())              # False
 
 
-# isidentifier():Checks for valid identifier means it check if a string is a valid variable name
+# isidentifier():Verifica el identificador válido 
+# significa que verifica si una cadena es un nombre de variable válido
 
-challenge = '30DaysOfPython'
-print(challenge.isidentifier()) # False, because it starts with a number
-challenge = 'thirty_days_of_python'
-print(challenge.isidentifier()) # True
-
-
-# islower():Checks if all alphabets in a string are lowercase
-
-challenge = 'thirty days of python'
-print(challenge.islower()) # True
-challenge = 'Thirty days of python'
-print(challenge.islower()) # False
-
-# isupper(): returns if all characters are uppercase characters
-
-challenge = 'thirty days of python'
-print(challenge.isupper()) #  False
-challenge = 'THIRTY DAYS OF PYTHON'
-print(challenge.isupper()) # True
+desafio = '30 dias de Python'
+print(desafio.isidentifier())       # False, porque empieza con un numero
+desafio = 'treinta_Dias_of_python'
+print(desafio.isidentifier())       # True
 
 
-# isnumeric():Checks numeric characters
+# islower(): Comprueba si todos los caracteres en una cadena están en minúsculas
+
+desafio = 'treinta dias de python'
+print(desafio.islower())            # True
+desafio = 'treinta dias de python'
+print(desafio.islower())            # False
+
+# isupper(): devuelve verdadero todos los caracteres están en mayúsculas
+
+desafio = 'treinta dias de python'
+print(desafio.isupper())            #  False
+desafio = 'treinta dias de python'
+print(desafio.isupper())            # True
+
+
+# isnumeric(): Comprueba los caracteres numéricos
 
 num = '10'
-print(num.isnumeric())      # True
-print('ten'.isnumeric())    # False
+print(num.isnumeric())              # True
+print('ten'.isnumeric())            # False
 
-# join(): Returns a concatenated string
+# join(): Devuelve una cadena concatenada
 
 web_tech = ['HTML', 'CSS', 'JavaScript', 'React']
-result = '#, '.join(web_tech)
-print(result) # 'HTML# CSS# JavaScript# React'
+resultado = '#, '.join(web_tech)
+print(resultado) # 'HTML# CSS# JavaScript# React'
 
-# strip(): Removes both leading and trailing characters
+# strip(): Elimina los caracteres iniciales y finales
 
-challenge = ' thirty days of python '
-print(challenge.strip('y')) # 5
+desafio = ' treinta dias de python '
+print(desafio.strip('y'))           # 5
 
-# replace(): Replaces substring inside
+# replace(): Reemplaza la subcadena dentro
 
-challenge = 'thirty days of python'
-print(challenge.replace('python', 'coding')) # 'thirty days of coding'
+desafio = 'treinta dias de python'
+print(desafio.replace('python', 'coding')) # 'treinta Dias de codigo'
 
-# split():Splits String from Left
+# split():Divide la cadena desde la izquierda
 
-challenge = 'thirty days of python'
-print(challenge.split()) # ['thirty', 'days', 'of', 'python']
+desafio = 'treinta dias de python'
+print(desafio.split())              # ['treinta', 'Dias', 'de', 'python']
 
-# title(): Returns a Title Cased String
+# title(): Devuelve una cadena de título en mayúsculas
 
-challenge = 'thirty days of python'
-print(challenge.title()) # Thirty Days Of Python
+desafio = 'treinta dias de python'
+print(desafio.title())              # treinta dias de python
 
 # swapcase(): Checks if String Starts with the Specified String
   
-challenge = 'thirty days of python'
-print(challenge.swapcase())   # THIRTY DAYS OF PYTHON
-challenge = 'Thirty Days Of Python'
-print(challenge.swapcase())  # tHIRTY dAYS oF pYTHON
+desafio = 'treinta dias de python'
+print(desafio.swapcase())           # treinta dias de python
+desafio = 'treinta dias de python'
+print(desafio.swapcase())           # treinta dias de python
 
-# startswith(): Checks if String Starts with the Specified String
+# startswith(): Comprueba si la cadena comienza con la cadena especificada
 
-challenge = 'thirty days of python'
-print(challenge.startswith('thirty')) # True
-challenge = '30 days of python'
-print(challenge.startswith('thirty')) # False
+desafio = 'treinta dias de python'
+print(desafio.startswith('treinta')) # True
+desafio = '30 Dias of python'
+print(desafio.startswith('treinta')) # False
