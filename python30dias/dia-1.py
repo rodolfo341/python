@@ -15,7 +15,7 @@ print("Multiplicación",2 * 3)       # Multiplicación(*) 6
 print("División",3 / 2)             # División(/) 1.5
 print("Exponeciación",5 ** 3)       # Eexponenciación(**) 125
 print("Módulo",3 % 2)               # Moduo(%) 1
-print("Divición al piso",3 // 2)    # División redondeo(//) 1
+print("Divición redondeo",3 // 2)    # División redondeo(//) 1
 
 esperar_tecla_para_continuar()
 # Comprobar de tipos de datos
