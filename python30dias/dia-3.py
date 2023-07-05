@@ -3,21 +3,16 @@ def esperar_tecla_para_continuar():
     print("Presiona cualquier tecla para continuar... \n\n")
     msvcrt.getch()
 
-# Operadores aritméticos en Python
-# Enteros (int)
-esperar_tecla_para_continuar()
-print("Operadores aritméticos en Python \n\n")
+print('suma: ', 1 + 2)
+print('Resta: ', 2 - 1)
+print('Multiplicacion: ', 2 * 3)
+print ('Division: ', 4 / 2)                         # Division in python gives floating number
+print('Division: ', 6 / 2)
+print('Division: ', 7 / 2)
+print('Division sin parte decimal: ', 7 // 2)   # gives without the floating number or without the remaining
+print('Moduluo: ', 3 % 2)                           # Gives the remainder
+print('Exponential: ', 3 ** 3)                     # it means 3 * 3 * 3
 
-print('suma: 1 + 2 = ', 1 + 2)
-print('Resta: 2 - 1 = ', 2 - 1)
-print('Multiplicación: 2 * 3 = ', 2 * 3)
-print('División: 4 / 2 = ', 4 / 2)              # La división en python da un número flotante
-print('Division: 6 / 2 =', 6 / 2)
-print('Division: 7 / 2 =', 7 / 2)
-print('Division sin resto: 7 // 2 = ', 7 // 2)  # Da sin el número flotante o sin el resto
-print('Módulo: 3 % 2 = ', 3 % 2)                # Da el moódulo
-print('División sin el remanente: ', 7 // 3)   
-print('Exponencial: ', 3 ** 2)                  # Significa 3 * 3
 
 # Numeros flotantes
 esperar_tecla_para_continuar()
