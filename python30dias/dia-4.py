@@ -1,5 +1,15 @@
-
+import msvcrt
+def esperar_tecla_para_continuar():
+    print("Presiona cualquier tecla para continuar... \n\n")
+    msvcrt.getch()
+    
+    
 # Comentario de una sola línea
+esperar_tecla_para_continuar()
+print("#Comentario de una sola linea")    
+print("\"\"\"\n\tComentario \n \tmulti\n\tlinea\n\"\"\"")
+esperar_tecla_para_continuar() 
+
 letra = 'P'                 # Una cadena puede ser un solo carácter o un montón de textos
 print(letra)                # P
 print(len(letra))           # 1

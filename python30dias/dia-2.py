@@ -6,6 +6,26 @@ def esperar_tecla_para_continuar():#{
 # Introducción
 # Dia 2 de 30 Dias del desafio Python
 
+# Funciones integradas
+# faltan los ejemplos
+# print() 
+# len() 
+# type()
+# int()
+# float()
+# str()
+# input()
+# list()
+# dict()
+# min()
+# max()
+# sum()
+# sorted()
+# open()
+# file()
+# help()
+# dir()
+
 print("declaro las variables")
 esperar_tecla_para_continuar()
 
