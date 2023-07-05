@@ -10,7 +10,7 @@ print("declaro las variables")
 esperar_tecla_para_continuar()
 
 nombre = 'Rodolfo'
-apellido = 'aravena'
+apellido = 'Aravena'
 pais = 'Chile'
 ciudad = 'Santiago'
 edad = 51
