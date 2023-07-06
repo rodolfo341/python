@@ -24,14 +24,42 @@ print(type(2.2))    #float
 print(type(True))   #bool
 esperar_tecla_para_continuar()
 
+# int()
+print(type(int("11")))      # Transforma el texto de string a integer
+print(int(11.11))           # Transforma el numero de flotante a integer (lo trunca)
+esperar_tecla_para_continuar()
+
+# float()
+# str()
+# input()
+
+
+# print() 
+print("imprime texto")
+
+# len() 
+texto = "ejemplo"
+print("Cantida de letras de 'ejemplo:'",len(texto))
+esperar_tecla_para_continuar()
+
+# type()
+print("ejemplos de type")
+print(type(texto))  #str
+print(type(22))     #int
+print(type(2.2))    #float
+print(type(True))   #bool
+esperar_tecla_para_continuar()
+
 # input()
 texto = input("ingrese nuevo texto: \t")
 print(f"Nuevo texto es : \t{texto}")
 esperar_tecla_para_continuar()
 
+
+
+
+
 # list()
-
-
 # dict()
 # min()
 # max()
