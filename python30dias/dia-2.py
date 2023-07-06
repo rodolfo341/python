@@ -79,6 +79,11 @@ diccionario = dict(zip(claves, valores))
 print(diccionario)                  # Output: {'nombre': 'Juan', 'edad': 30, 'ciudad': 'México'}
 espera()
 
+lista_tuplas = [("nombre", "Juan"), ("edad", 30), ("ciudad", "México")]
+diccionario = dict(lista_tuplas)
+print(diccionario)  # Output: {'nombre': 'Juan', 'edad': 30, 'ciudad': 'México'}
+espera()
+
 # min()
 # max()
 # sum()
