@@ -1,5 +1,5 @@
 import msvcrt
-def esperar_tecla_para_continuar():#{
+def espera():#{
     print("Presiona cualquier tecla para continuar...")
     msvcrt.getch()
 
@@ -14,7 +14,7 @@ print("imprime texto")
 # len() 
 texto = "ejemplo"
 print("Cantida de letras de 'ejemplo:'",len(texto))
-esperar_tecla_para_continuar()
+espera()
 
 # type()
 print("ejemplos de type")
@@ -22,7 +22,7 @@ print(type(texto))  #str
 print(type(22))     #int
 print(type(2.2))    #float
 print(type(True))   #bool
-esperar_tecla_para_continuar()
+espera()
 
 # int()
 print(type(int("11")))      # Transforma el texto de string a integer
@@ -30,7 +30,7 @@ print(int(11.11))           # Transforma el numero de flotante a integer (lo tru
 print(int(True))            # True se transforma en 1
 print(int(False))           # False se transforma en 0
 #print(int("hola"))         # dará error
-esperar_tecla_para_continuar()
+espera()
 
 # float()
 print(type(float("11.1")))    # Transforma el texto de string a float
@@ -38,20 +38,25 @@ print(float(11))              # Transforma el numero de int a float
 print(float(True))            # True se transforma en 1.0
 print(float(False))           # False se transforma en 0.0
 #print(float("hola"))         # dará error
-esperar_tecla_para_continuar()
+espera()
 
 # str()
 print(type(str("11.1")))    # Transforma el  de float a string
 print(str(True))            # True se transforma en una cadena
 print(str(False))           # False se transforma en cadena
-esperar_tecla_para_continuar()
+espera()
 
 # input()
 texto = input("ingrese nuevo texto: \t")
 print(f"Nuevo texto es : \t{texto}")
-esperar_tecla_para_continuar()
+espera()
 
 # list()
+cadena = "Hola"
+lista_caracteres = list(cadena)
+print(lista_caracteres)     # Output: ['H', 'o', 'l', 'a']
+espera()
+
 # dict()
 # min()
 # max()
@@ -63,7 +68,7 @@ esperar_tecla_para_continuar()
 # dir()
 
 print("declaro las variables")
-esperar_tecla_para_continuar()
+espera()
 
 nombre = 'Rodolfo'
 apellido = 'Aravena'
@@ -95,7 +100,7 @@ print('Informacion personalion: ', informacion_personal)
 
 # Declarar múltiples variables en una línea
 print("Declaro e imprimo variables multiples")
-esperar_tecla_para_continuar()
+espera()
 
 nombre, apellido, pais, edad, esta_casado = 'Rodolfo', 'Aravena', 'Chile', 51, True
 
