@@ -65,10 +65,20 @@ espera()
 # Si quieres separar las palabras usa split()
 frase = "Hola a todos"
 lista_palabras = frase.split()
-print(lista_palabras)  # Output: ['Hola', 'a', 'todos']
+print(lista_palabras)               # Output: ['Hola', 'a', 'todos']
 espera()
 
-# dict()
+# dict()    crea un diccionario
+diccionario = dict(nombre="Juan", edad=30, ciudad="México")
+print(diccionario)                  # Output: {'nombre': 'Juan', 'edad': 30, 'ciudad': 'México'}
+espera()
+
+claves = ["nombre", "edad", "ciudad"]
+valores = ["Juan", 30, "México"]
+diccionario = dict(zip(claves, valores))
+print(diccionario)                  # Output: {'nombre': 'Juan', 'edad': 30, 'ciudad': 'México'}
+espera()
+
 # min()
 # max()
 # sum()
