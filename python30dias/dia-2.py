@@ -9,13 +9,29 @@ def esperar_tecla_para_continuar():#{
 # Funciones integradas
 # faltan los ejemplos
 # print() 
+print("imprime texto")
+
 # len() 
+texto = "ejemplo"
+print("Cantida de letras de 'ejemplo:'",len(texto))
+esperar_tecla_para_continuar()
+
 # type()
-# int()
-# float()
-# str()
+print("ejemplos de type")
+print(type(texto))  #str
+print(type(22))     #int
+print(type(2.2))    #float
+print(type(True))   #bool
+esperar_tecla_para_continuar()
+
 # input()
+texto = input("ingrese nuevo texto: \t")
+print(f"Nuevo texto es : \t{texto}")
+esperar_tecla_para_continuar()
+
 # list()
+
+
 # dict()
 # min()
 # max()
