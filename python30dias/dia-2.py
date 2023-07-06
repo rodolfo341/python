@@ -57,6 +57,17 @@ lista_caracteres = list(cadena)
 print(lista_caracteres)     # Output: ['H', 'o', 'l', 'a']
 espera()
 
+rango = range(5)            # Convierte un rango en una lista
+lista = list(rango)
+print(lista)  # Output: [0, 1, 2, 3, 4]
+espera()
+
+# Si quieres separar las palabras usa split()
+frase = "Hola a todos"
+lista_palabras = frase.split()
+print(lista_palabras)  # Output: ['Hola', 'a', 'todos']
+espera()
+
 # dict()
 # min()
 # max()
