@@ -27,37 +27,29 @@ esperar_tecla_para_continuar()
 # int()
 print(type(int("11")))      # Transforma el texto de string a integer
 print(int(11.11))           # Transforma el numero de flotante a integer (lo trunca)
+print(int(True))            # True se transforma en 1
+print(int(False))           # False se transforma en 0
+#print(int("hola"))         # dará error
 esperar_tecla_para_continuar()
 
 # float()
-# str()
-# input()
-
-
-# print() 
-print("imprime texto")
-
-# len() 
-texto = "ejemplo"
-print("Cantida de letras de 'ejemplo:'",len(texto))
+print(type(float("11.1")))    # Transforma el texto de string a float
+print(float(11))              # Transforma el numero de int a float
+print(float(True))            # True se transforma en 1.0
+print(float(False))           # False se transforma en 0.0
+#print(float("hola"))         # dará error
 esperar_tecla_para_continuar()
 
-# type()
-print("ejemplos de type")
-print(type(texto))  #str
-print(type(22))     #int
-print(type(2.2))    #float
-print(type(True))   #bool
+# str()
+print(type(str("11.1")))    # Transforma el  de float a string
+print(str(True))            # True se transforma en una cadena
+print(str(False))           # False se transforma en cadena
 esperar_tecla_para_continuar()
 
 # input()
 texto = input("ingrese nuevo texto: \t")
 print(f"Nuevo texto es : \t{texto}")
 esperar_tecla_para_continuar()
-
-
-
-
 
 # list()
 # dict()
