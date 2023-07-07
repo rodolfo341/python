@@ -120,28 +120,30 @@ espera()
 # sorted()
 print("\nsorted()")
 numeros = [4, 2, 1, 5, 3]
+print(numeros)
 ordenados = sorted(numeros)
 print(ordenados)
+espera()
+print("Ordenar alfabeticamente")
+frutas = ("manzana", "naranja", "plátano", "uva")
+ordenadas = sorted(frutas, reverse=True)
+print(ordenadas)
 espera()
 
 
 # open()
-print("\nopen()")
+print("\nopen() lo veremos mas adelante")
 espera()
-
-
-# file()
-print("\nfile()")
-espera()
-
 
 # help()
-print("\nhelp()")
+print("\nhelp() Proporciona ayuda sobre lafuncion que escribas")
 espera()
 
 
 # dir()
 print("\ndir()")
+nombres = dir()
+print(nombres)
 espera()
 
 
