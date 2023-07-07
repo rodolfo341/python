@@ -111,11 +111,17 @@ espera()
 
 # sum()
 print("\nsum()")
+numeros = [1, 2, 3, 4, 5]
+resultado = sum(numeros)
+print(resultado)
 espera()
 
 
 # sorted()
 print("\nsorted()")
+numeros = [4, 2, 1, 5, 3]
+ordenados = sorted(numeros)
+print(ordenados)
 espera()
 
 
