@@ -9,15 +9,15 @@ def espera():#{
 # Funciones integradas
 # faltan los ejemplos
 # print() 
-print("imprime texto")
+print("\nimprime texto")
 
 # len() 
 texto = "ejemplo"
-print("Cantida de letras de 'ejemplo:'",len(texto))
+print("\nCantida de letras de 'ejemplo:'",len(texto))
 espera()
 
 # type()
-print("ejemplos de type")
+print("\nejemplos de type")
 print(type(texto))  #str
 print(type(22))     #int
 print(type(2.2))    #float
@@ -25,6 +25,7 @@ print(type(True))   #bool
 espera()
 
 # int()
+print("\n\n")
 print(type(int("11")))      # Transforma el texto de string a integer
 print(int(11.11))           # Transforma el numero de flotante a integer (lo trunca)
 print(int(True))            # True se transforma en 1
@@ -33,6 +34,7 @@ print(int(False))           # False se transforma en 0
 espera()
 
 # float()
+print("\n")
 print(type(float("11.1")))    # Transforma el texto de string a float
 print(float(11))              # Transforma el numero de int a float
 print(float(True))            # True se transforma en 1.0
@@ -41,34 +43,40 @@ print(float(False))           # False se transforma en 0.0
 espera()
 
 # str()
+print("\n")
 print(type(str("11.1")))    # Transforma el  de float a string
 print(str(True))            # True se transforma en una cadena
 print(str(False))           # False se transforma en cadena
 espera()
 
 # input()
+print("\ninput()")
 texto = input("ingrese nuevo texto: \t")
 print(f"Nuevo texto es : \t{texto}")
 espera()
 
 # list()
+print("\nlist()")
 cadena = "Hola"
 lista_caracteres = list(cadena)
 print(lista_caracteres)     # Output: ['H', 'o', 'l', 'a']
 espera()
 
+print("\nrange()")
 rango = range(5)            # Convierte un rango en una lista
 lista = list(rango)
 print(lista)  # Output: [0, 1, 2, 3, 4]
 espera()
 
 # Si quieres separar las palabras usa split()
+print("\nsplit()")
 frase = "Hola a todos"
 lista_palabras = frase.split()
 print(lista_palabras)               # Output: ['Hola', 'a', 'todos']
 espera()
 
 # dict()    crea un diccionario
+print("\ndict()")
 diccionario = dict(nombre="Juan", edad=30, ciudad="México")
 print(diccionario)                  # Output: {'nombre': 'Juan', 'edad': 30, 'ciudad': 'México'}
 espera()
@@ -85,15 +93,54 @@ print(diccionario)  # Output: {'nombre': 'Juan', 'edad': 30, 'ciudad': 'México'
 espera()
 
 # min()
-# max()
-# sum()
-# sorted()
-# open()
-# file()
-# help()
-# dir()
+print("\nmin() max()")
+numeros = [5, 2, 8, 1, 9, 3]
+print("Minimo y maximo de esta liste numeros = [5, 2, 8, 1, 9, 3]")
+minimo = min(numeros)
+maximo = max(numeros)
+print("Valor mínimo:", minimo)
+print("Valor máximo:", maximo)
+espera()
+print("El mejor y pero puntaje de este diccionario puntajes = {'Juan': 85, 'María': 92, 'Pedro': 78, 'Ana': 95}")
+puntajes = {'Juan': 85, 'María': 92, 'Pedro': 78, 'Ana': 95}
+mejor_puntaje = max(puntajes, key=puntajes.get)
+peor_puntaje = min(puntajes, key=puntajes.get)
+print("Mejor puntaje:", puntajes[mejor_puntaje])
+print("Peor puntaje:", puntajes[peor_puntaje])
+espera()
 
-print("declaro las variables")
+# sum()
+print("\nsum()")
+espera()
+
+
+# sorted()
+print("\nsorted()")
+espera()
+
+
+# open()
+print("\nopen()")
+espera()
+
+
+# file()
+print("\nfile()")
+espera()
+
+
+# help()
+print("\nhelp()")
+espera()
+
+
+# dir()
+print("\ndir()")
+espera()
+
+
+
+print("\ndeclaro las variables")
 espera()
 
 nombre = 'Rodolfo'
@@ -111,7 +158,7 @@ informacion_personal = {
 }
 
 # Imprimir los valores almacenados en las variables
-print("Imprimo las variables")
+print("\nImprimo las variables")
 
 print('Nombre:', nombre)
 print('Nombre longitud(length):', len(nombre))
@@ -125,7 +172,7 @@ print('Habilidades: ', habilidades)
 print('Informacion personalion: ', informacion_personal)
 
 # Declarar múltiples variables en una línea
-print("Declaro e imprimo variables multiples")
+print("\nDeclaro e imprimo variables multiples")
 espera()
 
 nombre, apellido, pais, edad, esta_casado = 'Rodolfo', 'Aravena', 'Chile', 51, True

@@ -4,9 +4,6 @@ import msvcrt
 def esperar_tecla_para_continuar():
     print("Presiona cualquier tecla para continuar...")
     msvcrt.getch()
-    def esperar_tecla_para_continuar():
-        print("Presiona cualquier tecla para continuar...")
-        msvcrt.getch()
 
 # Introducción
 # Dia 1 de 30 Dias del desafio Python
