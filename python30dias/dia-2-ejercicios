@@ -11,7 +11,12 @@ nombre = "Manchas"
 apellido = "Perro"
 
 # 5    Declarar una variable de nombre completo y asignarle un valor
+nombreCompleto = f"{nombre} {apellido}"
+print(nombreCompleto)
+
 # 6    Declarar una variable de país y asignarle un valor
+pais = "Chile"
+
 # 7    Declarar una variable de ciudad y asignarle un valor
 # 8    Declarar una variable de edad y asignarle un valor
 # 9    Declarar una variable de año y asignarle un valor
