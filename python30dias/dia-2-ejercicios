@@ -16,15 +16,34 @@ print(nombreCompleto)
 
 # 6    Declarar una variable de país y asignarle un valor
 pais = "Chile"
+print(pais)
 
 # 7    Declarar una variable de ciudad y asignarle un valor
 ciudad = "Santiago"
+print(ciudad)
 
 # 8    Declarar una variable de edad y asignarle un valor
 edad = 51
+print(edad)
 
 # 9    Declarar una variable de año y asignarle un valor
+anio = 2023
+print(anio)
 # 10    Declarar una variable is_married y asignarle un valor
+is_casado = True
+if is_casado == True:
+    print("Esta casado")
+    
 # 11   Declarar una variable is_true y asignarle un valor
-# 12    Declarar una variable is_light_on y asignarle un valor
-# 13    Declarar múltiples variables en una lín
+is_true = False
+print(f"el valos de is_true es:{is_true}")
+
+# 12 Declarar una variable is_light_on y asignarle un valor
+is_light = "es una luz"
+print(is_light)
+
+# 13 Declarar múltiples variables en una línea
+x, y, z =1,2,3
+
+print(f"x = {x} y = {y} z = {z}")
+
