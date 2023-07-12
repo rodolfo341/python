@@ -8,6 +8,7 @@
 nombre = "Manchas"
 
 # 4    Declarar una variable de apellido y asignarle un valor
+apellido = "Perro"
 
 # 5    Declarar una variable de nombre completo y asignarle un valor
 # 6    Declarar una variable de país y asignarle un valor
