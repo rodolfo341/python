@@ -18,6 +18,8 @@ print(nombreCompleto)
 pais = "Chile"
 
 # 7    Declarar una variable de ciudad y asignarle un valor
+ciudad = "Santiago"
+
 # 8    Declarar una variable de edad y asignarle un valor
 # 9    Declarar una variable de año y asignarle un valor
 # 10    Declarar una variable is_married y asignarle un valor
