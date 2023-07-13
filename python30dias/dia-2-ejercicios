@@ -1,6 +1,6 @@
 import msvcrt
-def espera():#{
-    print("Presiona cualquier tecla para continuar...")
+def espera():
+    print("\tPresiona cualquier tecla para continuar...\n")
     msvcrt.getch()
 
 #   Ejercicios: Nivel 1
@@ -29,39 +29,43 @@ def espera():#{
 #Día 2: 30 días de programación en python
 # 3    Declarar una variable de nombre y asignarle un valor
 nombre = "Manchas"
+print(f"nombre = {nombre}")
+espera()
 
 # 4    Declarar una variable de apellido y asignarle un valor
 apellido = "Perro"
+print(f"apellido = {apellido}")
+espera()
 
 # 5    Declarar una variable de nombre completo y asignarle un valor
 nombreCompleto = f"{nombre} {apellido}"
-print(nombreCompleto)
+print(f"nombreCompleto = {nombreCompleto}")
 espera()
 
 # 6    Declarar una variable de país y asignarle un valor
 pais = "Chile"
-print(pais)
+print(f"pais = {pais}")
 espera()
 
 # 7    Declarar una variable de ciudad y asignarle un valor
 ciudad = "Santiago"
-print(ciudad)
+print(f"ciudad = {ciudad}")
 espera()
 
 # 8    Declarar una variable de edad y asignarle un valor
 edad = 51
-print(edad)
+print(f"edad = {edad}")
 espera()
 
 # 9    Declarar una variable de año y asignarle un valor
 anio = 2023
-print(anio)
+print(f"año = {anio}")
 espera()
 
 # 10    Declarar una variable is_married y asignarle un valor
 is_casado = True
 if is_casado == True:
-    print("Esta casado")
+    print(f"is_casado = {is_casado}")
 espera()
     
 # 11   Declarar una variable is_true y asignarle un valor
@@ -71,7 +75,7 @@ espera()
 
 # 12 Declarar una variable is_light_on y asignarle un valor
 is_light = "es una luz"
-print(is_light)
+print(f"is_light = {is_light}")
 espera()
 
 # 13 Declarar múltiples variables en una línea
@@ -84,39 +88,39 @@ espera()
 #Ejercicios: Nivel 2
 
 #  1  Verifique el tipo de datos de todas sus variables usando la función incorporada type ()
-print(type(nombre))
+print(f"E tipo de dato de {nombre} es : {type(nombre)}")
 espera()
 
-print(type(apellido))
+print(f"E tipo de dato de {apellido} es : {type(apellido)}")
 espera()
 
-print(type(nombreCompleto))
+print(f"E tipo de dato de {nombreCompleto} es : {type(nombreCompleto)}")
 espera()
 
-print(type(pais))
+print(f"E tipo de dato de {pais} es : {type(pais)}")
 espera()
 
-print(type(ciudad))
+print(f"E tipo de dato de {ciudad} es : {type(ciudad)}")
 espera()
 
-print(type(edad))
+print(f"E tipo de dato de {edad} es : {type(edad)}")
 espera()
 
-print(type(anio))
+print(f"E tipo de dato de {anio} es : {type(anio)}")
 espera()
 
-print(type(is_casado))
+print(f"E tipo de dato de {is_casado} es : {type(is_casado)}")
 espera()
 
-print(type(is_true))
+print(f"E tipo de dato de {is_true} es : {type(is_true)}")
 espera()
 
-print(type(is_light))
+print(f"E tipo de dato de {is_light} es : {type(is_light)}")
 espera()
-
 
 #  2  Usando la len() , encuentre la longitud de su nombre función incorporada
 print(f"La longitud e mi nombre es: {len(nombre)}")
+espera()
 
 #  3  Compare la longitud de su nombre y su apellido
 print(f"La longitud e mi apellido es: {len(apellido)}")
@@ -155,6 +159,7 @@ espera()
 modulo = num_uno % num_dos
 print(f"modulo = {modulo}")
 espera()
+print()
 
 #     vi    Calcule num_one a la potencia de num_two y asigne el valor a una variable exp
 exponente = num_uno ** num_dos
@@ -167,6 +172,10 @@ print(f"piso = {piso}")
 espera()
 
 #  5  El radio de un círculo es de 30 metros.
+circulo = 30
+print(f"circulo = {circulo}")
+espera()
+
 #      i   Calcule el área de un círculo y asigne el valor a un nombre de variable de area_of_circle
 #     ii   Calcule la circunferencia de un círculo y asigne el valor a una variable con el nombre de circum_of_circle
 #    iii  Tome el radio como entrada del usuario y calcule el área.
