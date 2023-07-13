@@ -116,15 +116,56 @@ espera()
 
 
 #  2  Usando la len() , encuentre la longitud de su nombre función incorporada
+print(f"La longitud e mi nombre es: {len(nombre)}")
+
 #  3  Compare la longitud de su nombre y su apellido
+print(f"La longitud e mi apellido es: {len(apellido)}")
+diferencia = len(nombre) - len(apellido)
+print(f"La diferencia entre la longitud de nombre y apellido es: {diferencia}")
+espera()
+
 #  4  Declarar 5 como num_one y 4 como num_two
+num_uno = 5
+num_dos = 4
+print(f"num_uno = {num_uno}")
+print(f"num_dos = {num_dos}")
+espera()
+
 #      i    Agregue num_one y num_two y asigne el valor a un total variable
+total = num_uno + num_dos
+print(f"total = {total}")
+espera()
+
 #     ii    Reste num_two de num_one y asigne el valor a una variable diff
+diferencia = num_uno - num_dos
+print(f"diferencia = {diferencia}")
+espera()
+
 #    iii    Multiplique num_two y num_one y asigne el valor a un producto variable
+producto = num_uno * num_dos
+print(f"producto = {producto}")
+espera()
+
 #     iv    Divide num_one por num_two y asigna el valor a una división variable
+cociente = num_uno / num_dos
+print(f"cociente = {cociente}")
+espera()
+
 #      v    Use la división de módulo para encontrar num_two dividido por num_one y asigne el valor a un resto variable
+modulo = num_uno % num_dos
+print(f"modulo = {modulo}")
+espera()
+
 #     vi    Calcule num_one a la potencia de num_two y asigne el valor a una variable exp
+exponente = num_uno ** num_dos
+print(f"exponente = {exponente}")
+espera()
+
 #    vii    Encuentre la división de piso de num_one por num_two y asigne el valor a una variable floor_division
+piso = num_uno // num_dos
+print(f"piso = {piso}")
+espera()
+
 #  5  El radio de un círculo es de 30 metros.
 #      i   Calcule el área de un círculo y asigne el valor a un nombre de variable de area_of_circle
 #     ii   Calcule la circunferencia de un círculo y asigne el valor a una variable con el nombre de circum_of_circle
