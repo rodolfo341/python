@@ -1,7 +1,7 @@
 import msvcrt
 def esperar_tecla_para_continuar():
+    print("\n\tPresiona cualquier tecla para continuar... \n")
     msvcrt.getch()
-    print("\tPresiona cualquier tecla para continuar... \n\n")
 
 print('suma: ', 1 + 2)
 print('Resta: ', 2 - 1)
