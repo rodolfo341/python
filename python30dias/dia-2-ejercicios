@@ -1,3 +1,4 @@
+import math
 import msvcrt
 def espera():
     print("\tPresiona cualquier tecla para continuar...\n")
@@ -124,6 +125,7 @@ espera()
 
 #  3  Compare la longitud de su nombre y su apellido
 print(f"La longitud e mi apellido es: {len(apellido)}")
+espera()
 diferencia = len(nombre) - len(apellido)
 print(f"La diferencia entre la longitud de nombre y apellido es: {diferencia}")
 espera()
@@ -177,7 +179,15 @@ print(f"circulo = {circulo}")
 espera()
 
 #      i   Calcule el área de un círculo y asigne el valor a un nombre de variable de area_of_circle
+area_del_circulo = math.pi * circulo ** 2
+print(f"el area del circulo es : {area_del_circulo}")
+espera()
+
 #     ii   Calcule la circunferencia de un círculo y asigne el valor a una variable con el nombre de circum_of_circle
+circunferencia_del_circulo = 2 * math.pi * circulo
+print(f"el area del circulo es : {circunferencia_del_circulo}")
+espera()
+
 #    iii  Tome el radio como entrada del usuario y calcule el área.
 #  6  Use la función de entrada incorporada para obtener el nombre, el apellido, el país y la edad de un usuario 
 #     y almacene el valor en sus nombres de variables correspondientes
