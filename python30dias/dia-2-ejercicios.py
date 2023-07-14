@@ -196,9 +196,12 @@ espera()
 
 #  6  Use la función de entrada incorporada para obtener el nombre, el apellido, el país y la edad de un usuario 
 #     y almacene el valor en sus nombres de variables correspondientes
+nombre = input("ingrese su nombre: ")
+print(f"Tu nombre es: {nombre}")
+
 #  7  Ejecute la ayuda ('palabras clave') en el shell de Python o en su archivo para verificar las palabras reservadas 
 #     o las palabras clave de Python
-
+#help(list)
 
 #Ejercicios: Nivel 2
 
