@@ -174,23 +174,23 @@ print(f"piso = {piso}")
 espera()
 
 #  5  El radio de un círculo es de 30 metros.
-circulo = 30
+circulo = 31
 print(f"circulo = {circulo}")
 espera()
 
 #      i   Calcule el área de un círculo y asigne el valor a un nombre de variable de area_of_circle
-area_del_circulo = math.pi * circulo ** 2
+area_del_circulo = round(math.pi * circulo ** 2,2)
 print(f"el area del circulo es : {area_del_circulo}")
 espera()
 
 #     ii   Calcule la circunferencia de un círculo y asigne el valor a una variable con el nombre de circum_of_circle
-circunferencia_del_circulo = 2 * math.pi * circulo
-print(f"el area del circulo es : {circunferencia_del_circulo}")
+circunferencia_del_circulo = round(2 * math.pi * circulo,2)
+print(f"La circunferencia del circulo es : {circunferencia_del_circulo}")
 espera()
 
 #    iii  Tome el radio como entrada del usuario y calcule el área.
-circulo = input("ingresa radio del circulo")
-area_del_circulo = math.pi * circulo ** 2
+circulo = float(input("ingresa radio del circulo: "))
+area_del_circulo = round(math.pi * circulo ** 2,2)
 print(f"el area del circulo es : {area_del_circulo}")
 espera()
 
