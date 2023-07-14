@@ -1,7 +1,7 @@
 import msvcrt
 def esperar_tecla_para_continuar():
-    print("Presiona cualquier tecla para continuar... \n\n")
     msvcrt.getch()
+    print("\tPresiona cualquier tecla para continuar... \n\n")
 
 print('suma: ', 1 + 2)
 print('Resta: ', 2 - 1)
@@ -16,23 +16,21 @@ print('Exponential: ', 3 ** 3)                     # it means 3 * 3 * 3
 
 # Numeros flotantes
 esperar_tecla_para_continuar()
-print("Numeros flotantes \n\n")
-
+print("Numeros flotantes\n")
 print('Numeros flotantes, PI = ', 3.14)
 print('Numeros flotantes, gravedad = ', 9.81)
 
 # Números complejos
 esperar_tecla_para_continuar()
-print("Números complejos \n\n")
+print("Números complejos \n")
 print('Numeros complejos: 1 + 1j = ', 1 + 1j)
 print('Multiplicación de números complejos: (1 + 1j) * (1-1j) = ',(1 + 1j) * (1-1j))
 
 # Declarar la variable en la parte superior primero
 esperar_tecla_para_continuar()
-print("Declarar la variable en la parte superior primero \n\n")
+print("Declarar la variable en la parte superior primero \n")
 
 # Operaciones aritméticas y asignación del resultado a una variable
-esperar_tecla_para_continuar()
 print("Operaciones aritméticas y asignación del resultado a una variable \n\n")
 a = 3                       # a es un nombre de variable y 3 es un tipo de datos entero
 b = 2                       # b es un nombre de variable y 3 es un tipo de datos entero
@@ -58,13 +56,12 @@ print('a ** b = ', exponencial)
 
 # Declarar valores y organizarlos juntos
 esperar_tecla_para_continuar()
-print("Declarar valores y organizarlos juntos \n\n")
+print("Declarar valores y organizarlos juntos \n")
 
 numero_1 = 3
 numero_2 = 4
 # Operaciones aritméticas
-esperar_tecla_para_continuar()
-print("Operaciones aritméticas \n\n")
+print("Operaciones aritméticas \n")
 
 suma = numero_1 + numero_2
 diferencia = numero_2 - numero_1
@@ -73,8 +70,7 @@ division = numero_2 / numero_2
 modulo = numero_2 % numero_1
 
 # Impresión de valores con etiqueta
-esperar_tecla_para_continuar()
-print("Impresión de valores con etiqueta \n\n")
+print("Impresión de valores con etiqueta \n")
 print('suma: ', suma)
 print('diferencia: ', diferencia)
 print('producto: ', producto)
