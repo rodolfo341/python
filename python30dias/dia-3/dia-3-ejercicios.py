@@ -1,6 +1,6 @@
 import msvcrt
 def esperar_tecla_para_continuar():
-#    print("\tPresiona cualquier tecla para continuar... \n\n")
+    print("\n\tPresiona cualquier tecla para continuar... \n")
     msvcrt.getch()
     
 
@@ -55,10 +55,14 @@ def esperar_tecla_para_continuar():
 
 
 # 1   Declara tu edad como variable entera
-
+edad = 51
+print(f"moi edad es: {edad}")
+esperar_tecla_para_continuar()
 
 # 2   Declara tu altura como una variable flotante
-
+altura = 1.7
+print(f"mi estatura es{altura}")
+esperar_tecla_para_continuar()
 
 # 3   Declarar una variable que almacene un número complejo
 
