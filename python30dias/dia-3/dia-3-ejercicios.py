@@ -1,3 +1,4 @@
+import sympy
 import math
 import msvcrt
 def esperar_tecla_para_continuar():
@@ -143,14 +144,33 @@ print(f"Pendiente9: {pendiente9}")
 esperar_tecla_para_continuar()
 
 # 11  Calcula el valor de y (y = x^2 + 6x + 9). Trate de usar diferentes valores de x y descubra en qué valor de x y será 0
+# Definición de la ecuación
+def calcular_y(x):
+    return x**2 + 6*x + 9
 
-#print(f": {}")
-#esperar_tecla_para_continuar()
+# Calculando el valor de y para diferentes valores de x
+valores_x = [-5, -3, 0, 2, 4]
+for x in valores_x:
+    y = calcular_y(x)
+    print("Cuando x =", x, ", y =", y)
+
+# Encontrando en qué valor de x y es igual a 0 (resolviendo la ecuación cuadrática)
+from sympy import symbols, Eq, solve
+
+x = symbols('x')
+ecuacion = Eq(x**2 + 6*x + 9, 0)
+soluciones = solve(ecuacion, x)
+
+print("Los valores de x donde y es igual a 0 son:", soluciones)
+esperar_tecla_para_continuar()
 
 # 12  Encuentre la longitud de 'python' y 'dragon' y haga una declaración de comparación falsa.
-
-#print(f": {}")
-#esperar_tecla_para_continuar()
+python = len("python")
+dragon = len("dragon")
+print(f"python tiene : {python} letras")
+print(f"dragon tiene : {dragon} letras")
+print(not python == dragon)
+esperar_tecla_para_continuar()
 
 # 13  Use un operador para verificar si 'on' se encuentra tanto en 'python' como en 'dragon'
 
