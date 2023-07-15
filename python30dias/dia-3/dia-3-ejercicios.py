@@ -172,7 +172,11 @@ print(f"dragon tiene : {dragon} letras")
 print(not python == dragon)
 esperar_tecla_para_continuar()
 
-# 13  Use un operador para verificar si 'on' se encuentra tanto en 'python' como en 'dragon'
+# 13  Use el operador and para verificar si 'on' se encuentra tanto en 'python' como en 'dragon'
+if "on" in "python" and "on" in "drogon":
+    print(f" 'on' esta en 'python' y tambien en 'drogon'")
+else:
+    print(f" 'on' no esta 'python' y tambien en 'drogon'")
 
 #print(f": {}")
 #esperar_tecla_para_continuar()
