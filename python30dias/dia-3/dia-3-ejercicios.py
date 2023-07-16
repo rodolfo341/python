@@ -213,6 +213,10 @@ else:
 esperar_tecla_para_continuar()
 
 # 19  Compruebe si el tipo de '10' es igual al tipo de 10
+if '10' == 10:
+    print("'10' es igual a 10")
+else:
+    print("'10' no es igual a 10")
 
 #print(f": {}")
 #esperar_tecla_para_continuar()
