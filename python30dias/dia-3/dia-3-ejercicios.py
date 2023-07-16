@@ -243,8 +243,11 @@ esperar_tecla_para_continuar()
 #     Supongamos que una persona puede vivir cien años. 
 #               Ingrese number del years you have lived: 100
 #               You have lived for 3153600000 seconds.
-
-#print(f": {}")
+print("Calcular el número de segundos que puede vivir una persona. ")
+print("Supongamos que una persona puede vivir cien años. ")
+anios = int(input("Ingrese number del years you have lived: 100"))
+vivira = anios * 31536000
+print(f"Usted vivira : {vivira}")
 #esperar_tecla_para_continuar()
 
 # 23  Escriba un script de Python que muestre la siguiente tabla 
