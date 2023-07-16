@@ -198,14 +198,19 @@ print(f"tipo de dato de longitud_python: {type(longitud_python)}")
 esperar_tecla_para_continuar()
 
 # 17  Los números pares son divisibles por 2 y el resto es cero. ¿Cómo verifica si un número es par o no usando python?
-
-#print(f": {}")
-#esperar_tecla_para_continuar()
+numero = int(input("Numero = "))
+if numero % 2 == 0:
+    print(f"Es par")
+else:
+    print(f"Es impar")
+esperar_tecla_para_continuar()
 
 # 18  Verifique si la división del piso de 7 por 3 es igual al valor int convertido de 2.7.
-
-#print(f": {}")
-#esperar_tecla_para_continuar()
+if 7 % 3 == int(2.7):
+    print("Es igual")
+else:
+    print("no es igual")
+esperar_tecla_para_continuar()
 
 # 19  Compruebe si el tipo de '10' es igual al tipo de 10
 
