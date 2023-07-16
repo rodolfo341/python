@@ -174,27 +174,28 @@ esperar_tecla_para_continuar()
 
 # 13  Use el operador and para verificar si 'on' se encuentra tanto en 'python' como en 'dragon'
 if "on" in "python" and "on" in "drogon":
-    print(f" 'on' esta en 'python' y tambien en 'drogon'")
+    print(f"'on' esta en 'python' y tambien en 'drogon'")
 else:
-    print(f" 'on' no esta 'python' y tambien en 'drogon'")
-
-#print(f": {}")
-#esperar_tecla_para_continuar()
+    print(f"'on' no esta 'python' y tambien en 'drogon'")
+esperar_tecla_para_continuar()
 
 # 14  Espero que este curso no esté lleno de jerga . Use el operador in para verificar si hay jerga en la oración.
-
-#print(f": {}")
-#esperar_tecla_para_continuar()
+oracion = "Espero que este curso no esté lleno de jerga"
+if "jerga" in oracion:
+    print(f"'jerga' esta en la oracion")
+else:
+    print(f"'jerga' no esta en la oracion")
+esperar_tecla_para_continuar()
 
 # 15  No hay 'on' tanto en dragon como en python
-
-#print(f": {}")
-#esperar_tecla_para_continuar()
+if "on" in "python" and "on" in "drogon":
+    print(f"'no hay on' 'python' como en 'drogon'")
+esperar_tecla_para_continuar()
 
 # 16  Encuentre la longitud del texto python y convierta el valor en flotante y conviértalo en una cadena
-
-#print(f": {}")
-#esperar_tecla_para_continuar()
+longitud_python = str(float(int(len("python"))))
+print(f"tipo de dato de longitud_python: {type(longitud_python)}")
+esperar_tecla_para_continuar()
 
 # 17  Los números pares son divisibles por 2 y el resto es cero. ¿Cómo verifica si un número es par o no usando python?
 
