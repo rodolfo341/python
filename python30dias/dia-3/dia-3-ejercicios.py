@@ -217,23 +217,26 @@ if '10' == 10:
     print("'10' es igual a 10")
 else:
     print("'10' no es igual a 10")
-
-#print(f": {}")
-#esperar_tecla_para_continuar()
+esperar_tecla_para_continuar()
 
 # 20  Comprueba si int('9.8') es igual a 10
-
-#print(f": {}")
-#esperar_tecla_para_continuar()
+if int(9.8) == 10:
+    print("int(9.8) es igual a 10")
+else:
+    print("int(9.8) no es igual a 10")
+esperar_tecla_para_continuar()
 
 # 21  Escriba un script que solicite al usuario que ingrese las horas y la tarifa por hora. 
 #     ¿Calcular el salario de la persona?
 #               Ingrese hours: 40
 #               Ingrese rate per hour: 28
 #               Your weekly earning is 1120
-
-#print(f": {}")
-#esperar_tecla_para_continuar()
+print("¿Calcular el salario de la persona?")
+horas = int(input("Ingrese hours: "))
+valor = int(input("Ingrese valor por hours: "))
+total = horas * valor
+print(f"el total es: {total}")
+esperar_tecla_para_continuar()
 
 # 22  Escriba un script que solicite al usuario que ingrese el número de años. 
 #     Calcular el número de segundos que puede vivir una persona. 
