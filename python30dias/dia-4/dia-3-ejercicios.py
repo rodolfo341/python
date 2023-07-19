@@ -63,7 +63,7 @@ p = "Python"
 print('Treinta ' 'Días ' 'De ' 'Python')
 print('Treinta ' + 'Días ' + 'De ' + 'Python')
 print('Treinta', 'Días', 'De', 'Python')
-print('Treinta' 'Días' 'De' 'Python')
+print(f"{_30} {d} {de} {p}")
 #print('Treinta' 'Días' 'De' 'Python')
 #print('Treinta' 'Días' 'De' 'Python')
 #print('Treinta' 'Días' 'De' 'Python')
