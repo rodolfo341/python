@@ -245,7 +245,7 @@ esperar_tecla_para_continuar()
 #               You have lived for 3153600000 seconds.
 print("Calcular el número de segundos que puede vivir una persona. ")
 print("Supongamos que una persona puede vivir cien años. ")
-anios = int(input("Ingrese number del years you have lived: 100"))
+anios = int(input("Ingrese number del years you have lived: "))
 vivira = anios * 31536000
 print(f"Usted vivira : {vivira}")
 #esperar_tecla_para_continuar()
@@ -256,6 +256,11 @@ print(f"Usted vivira : {vivira}")
 #               3 1 3 9 27
 #               4 1 4 16 64
 #               5 1 5 25 125
+print("1 1 1 1 1")
+print("2 1 2 4 8 ")
+print("3 1 3 9 27")
+print("4 1 4 16 64")
+print("5 1 5 25 125")
 
 #print(f": {}")
 #esperar_tecla_para_continuar()
