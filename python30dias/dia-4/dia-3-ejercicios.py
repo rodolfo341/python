@@ -1,3 +1,8 @@
+import msvcrt
+def esperar_tecla_para_continuar():
+    print("\n\tPresiona cualquier tecla para continuar... \n")
+    msvcrt.getch()
+
 #   1  Concatene la cadena 'Treinta', 'Días', 'De', 'Python' en una sola cadena, 'Treinta días de Python'.
 #   2  Concatene la cadena 'Codificación', 'Para', 'Todos' en una sola cadena, 'Codificación para todos'.
 #   3  Declare una variable llamada empresa y asígnele un valor inicial "Codificación para todos".
@@ -60,46 +65,54 @@ _30 = "Treinta"
 d = "Días"
 de = "De"
 p = "Python"
+print("Concatenacion")
 print('Treinta ' 'Días ' 'De ' 'Python')
 print('Treinta ' + 'Días ' + 'De ' + 'Python')
 print('Treinta', 'Días', 'De', 'Python')
 print(f"{_30} {d} {de} {p}")
 #print('Treinta' 'Días' 'De' 'Python')
 #print('Treinta' 'Días' 'De' 'Python')
-#print('Treinta' 'Días' 'De' 'Python')
-#print('Treinta' 'Días' 'De' 'Python')
-#print('Treinta' 'Días' 'De' 'Python')
-#print('Treinta' 'Días' 'De' 'Python')
+
+esperar_tecla_para_continuar()
 
 #   2  Concatene la cadena 'Codificación', 'Para', 'Todos' en una sola cadena, 'Codificación para todos'.
-
+print('Codificación', 'Para', 'Todos')
+esperar_tecla_para_continuar()
+print(f"")
 
 #   3  Declare una variable llamada empresa y asígnele un valor inicial "Codificación para todos".
-
+empresa = "Codificación para todos"
 
 #   4  Imprime la empresa variable usando print() .
-
+print(empresa)
 
 #   5  Imprima la longitud de la cadena de caracteres de la empresa utilizando el método len() e print() .
-
+#esperar_tecla_para_continuar()
+#print(f"")
 
 #   6  Cambie todos los caracteres a letras mayúsculas usando el método upper() .
-
+#esperar_tecla_para_continuar()
+#print(f"")
 
 #   7  Cambie todos los caracteres a letras minúsculas usando el método lower() .
-
+#esperar_tecla_para_continuar()
+#print(f"")
 
 #   8  Use los métodos capitalize(), title(), swapcase() para formatear el valor de la cadena Coding For All .
-
+#esperar_tecla_para_continuar()
+#print(f"")
 
 #   9  Corte (corte) la primera palabra de la cadena Coding For All .
-
+#esperar_tecla_para_continuar()
+#print(f"")
 
 #  10  Verifique si la cadena Coding For All contiene una palabra Coding usando el método index, find u otros métodos.
-
+#esperar_tecla_para_continuar()
+#print(f"")
 
 #  11  Reemplace la palabra codificación en la cadena 'Codificación para todos' por Python.
-
+#esperar_tecla_para_continuar()
+#print(f"")
 
 #  12  Cambie Python para todos a Python para todos usando el método de reemplazo u otros métodos.
 
