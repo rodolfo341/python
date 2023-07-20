@@ -90,18 +90,18 @@ print(empresa)
 
 #   5  Imprima la longitud de la cadena de caracteres de la empresa utilizando el método len() e print() .
 esperar_tecla_para_continuar()
-print("Imprime la longitud de empresa")
-print(f"La longitud de 'empresa' es: {len(empresa)}")
+empresa_len = len(empresa)
+print(f"Metodo 'len()' \"{empresa_len}\"")
 
 #   6  Cambie todos los caracteres a letras mayúsculas usando el método upper() .
 esperar_tecla_para_continuar()
-print(f"Todo 'empresa' en mayuscula")
-print(empresa.upper())
+empresa_upper = empresa.upper()
+print(f"Metodo 'upper()' \"{empresa_upper}\"")
 
 #   7  Cambie todos los caracteres a letras minúsculas usando el método lower() .
 esperar_tecla_para_continuar()
-print(f"Todo 'empresa' en minuscula")
-print(empresa.lower())
+empresa_lower = empresa.lower()
+print(f"Metodo 'lower()' \"{empresa_lower}\"")
 
 #   8  Use los métodos capitalize(), title(), swapcase() para formatear el valor de la cadena "Codificacion para todos".
 esperar_tecla_para_continuar()
