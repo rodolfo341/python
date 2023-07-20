@@ -116,7 +116,14 @@ esperar_tecla_para_continuar()
 empresa_swapcase = empresa.swapcase()
 print(f"Metodo 'swapcase()' \"{empresa_swapcase}\"")
 
-#   9  Corte (corte) la primera palabra de la cadena "Codificacion para todos" .
+#   9  Corte(slice) la primera palabra de la cadena "Codificacion para todos".
+rebanada1 = slice(0,12)
+rebanada2 = slice(13,17)
+rebanada3 = slice(18,22)
+print(empresa[rebanada1])
+print(empresa[rebanada2])
+print(empresa[rebanada3])
+
 #esperar_tecla_para_continuar()
 #print(f"")
 
