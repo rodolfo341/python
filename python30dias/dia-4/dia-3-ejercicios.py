@@ -10,27 +10,27 @@ def esperar_tecla_para_continuar():
 #   5  Imprima la longitud de la cadena de caracteres de la empresa utilizando el método len() e print() .
 #   6  Cambie todos los caracteres a letras mayúsculas usando el método upper() .
 #   7  Cambie todos los caracteres a letras minúsculas usando el método lower() .
-#   8  Use los métodos capitalize(), title(), swapcase() para formatear el valor de la cadena Coding For All .
-#   9  Corte (corte) la primera palabra de la cadena Coding For All .
-#  10  Verifique si la cadena Coding For All contiene una palabra Coding usando el método index, find u otros métodos.
+#   8  Use los métodos capitalize(), title(), swapcase() para formatear el valor de la cadena "Codificacion para todos" .
+#   9  Corte (corte) la primera palabra de la cadena "Codificacion para todos" .
+#  10  Verifique si la cadena "Codificacion para todos" contiene una palabra Coding usando el método index, find u otros métodos.
 #  11  Reemplace la palabra codificación en la cadena 'Codificación para todos' por Python.
 #  12  Cambie Python para todos a Python para todos usando el método de reemplazo u otros métodos.
 #  13  Divida la cadena 'Codificación para todos' usando el espacio como separador (split()) .
 #  14  "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" divide la cadena en la coma.
-#  15  ¿Cuál es el carácter en el índice 0 en la cadena Coding For All ?
-#  16  ¿Cuál es el último índice de la cadena Coding For All ?
+#  15  ¿Cuál es el carácter en el índice 0 en la cadena "Codificacion para todos" ?
+#  16  ¿Cuál es el último índice de la cadena "Codificacion para todos" ?
 #  17  Qué carácter está en el índice 10 en la cadena "Codificación para todos".
 #  18  Cree un acrónimo o una abreviatura para el nombre 'Python For Everyone'.
 #  19  Cree un acrónimo o una abreviatura para el nombre 'Codificación para todos'.
-#  20  Use index para determinar la posición de la primera aparición de C en Coding For All.
-#  21  Utilice el índice para determinar la posición de la primera aparición de F en Coding For All.
-#  22  Use rfind para determinar la posición de la última aparición de l en Coding For All People.
+#  20  Use index para determinar la posición de la primera aparición de C en "Codificacion para todos".
+#  21  Utilice el índice para determinar la posición de la primera aparición de F en "Codificacion para todos".
+#  22  Use rfind para determinar la posición de la última aparición de l en "Codificacion para todos" People.
 #  23  Use índice o busque para encontrar la posición de la primera aparición de la palabra 'porque' en la siguiente #      oración: 'No puede terminar una oración con porque porque porque es una conjunción'
 #  24  Use rindex para encontrar la posición de la última aparición de la palabra porque en la siguiente oración: 'No #      puede terminar una oración con porque porque porque es una conjunción'
 #  25  Corta la frase 'porque porque porque' en la siguiente oración: 'No puedes terminar una oración con porque porque #      porque es una conjunción'
 #  26  Encuentre la posición de la primera aparición de la palabra 'porque' en la siguiente oración: 'No puede terminar #      una oración con porque porque porque es una conjunción'
 #  27  Corta la frase 'porque porque porque' en la siguiente oración: 'No puedes terminar una oración con porque porque #      porque es una conjunción'
-#  28  ¿'Coding For All' comienza con una subcadena Coding ?
+#  28  ¿'"Codificacion para todos"' comienza con una subcadena Coding ?
 #  29  ¿'Codificación para todos' termina con una codificación de subcadena ?
 #  30  ' Codificación para todos ', elimine los espacios finales izquierdo y derecho en la cadena dada. 
 #  31  ¿Cuál de las siguientes variables devuelve True cuando usamos el método isidentifier():
@@ -107,17 +107,20 @@ print(f"Metodo 'lower()' \"{empresa_lower}\"")
 esperar_tecla_para_continuar()
 empresa_capitalize = empresa.capitalize()
 print(f"Metodo 'capitalize()' \"{empresa_capitalize}\"")
+
+esperar_tecla_para_continuar()
 empresa_title = empresa.capitalize()
 print(f"Metodo 'title()' \"{empresa_title}\"")
+
+esperar_tecla_para_continuar()
 empresa_swapcase = empresa.swapcase()
 print(f"Metodo 'swapcase()' \"{empresa_swapcase}\"")
 
-
-#   9  Corte (corte) la primera palabra de la cadena Coding For All .
+#   9  Corte (corte) la primera palabra de la cadena "Codificacion para todos" .
 #esperar_tecla_para_continuar()
 #print(f"")
 
-#  10  Verifique si la cadena Coding For All contiene una palabra Coding usando el método index, find u otros métodos.
+#  10  Verifique si la cadena "Codificacion para todos" contiene una palabra Coding usando el método index, find u otros métodos.
 #esperar_tecla_para_continuar()
 #print(f"")
 
@@ -134,10 +137,10 @@ print(f"Metodo 'swapcase()' \"{empresa_swapcase}\"")
 #  14  "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" divide la cadena en la coma.
 
 
-#  15  ¿Cuál es el carácter en el índice 0 en la cadena Coding For All ?
+#  15  ¿Cuál es el carácter en el índice 0 en la cadena "Codificacion para todos" ?
 
 
-#  16  ¿Cuál es el último índice de la cadena Coding For All ?
+#  16  ¿Cuál es el último índice de la cadena "Codificacion para todos" ?
 
 
 #  17  Qué carácter está en el índice 10 en la cadena "Codificación para todos".
@@ -149,13 +152,13 @@ print(f"Metodo 'swapcase()' \"{empresa_swapcase}\"")
 #  19  Cree un acrónimo o una abreviatura para el nombre 'Codificación para todos'.
 
 
-#  20  Use index para determinar la posición de la primera aparición de C en Coding For All.
+#  20  Use index para determinar la posición de la primera aparición de C en "Codificacion para todos".
 
 
-#  21  Utilice el índice para determinar la posición de la primera aparición de F en Coding For All.
+#  21  Utilice el índice para determinar la posición de la primera aparición de F en "Codificacion para todos".
 
 
-#  22  Use rfind para determinar la posición de la última aparición de l en Coding For All People.
+#  22  Use rfind para determinar la posición de la última aparición de l en "Codificacion para todos" People.
 
 
 #  23  Use índice o busque para encontrar la posición de la primera aparición de la palabra 'porque' en la siguiente #      oración: 'No puede terminar una oración con porque porque porque es una conjunción'
@@ -173,7 +176,7 @@ print(f"Metodo 'swapcase()' \"{empresa_swapcase}\"")
 #  27  Corta la frase 'porque porque porque' en la siguiente oración: 'No puedes terminar una oración con porque porque #      porque es una conjunción'
 
 
-#  28  ¿'Coding For All' comienza con una subcadena Coding ?
+#  28  ¿'"Codificacion para todos"' comienza con una subcadena Coding ?
 
 
 #  29  ¿'Codificación para todos' termina con una codificación de subcadena ?
