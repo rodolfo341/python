@@ -124,21 +124,26 @@ print(empresa[rebanada1])
 print(empresa[rebanada2])
 print(empresa[rebanada3])
 
-#esperar_tecla_para_continuar()
-#print(f"")
+#  10  Verifique si la cadena "Codificacion para todos" contiene una palabra "Codificacion" usando el método index, find u otros métodos.
+esperar_tecla_para_continuar()
+aparicion = empresa.index("Codificación")
+print(f"la primera aparicion de \"Codificacion\" es en el indice [{aparicion}]")
 
-#  10  Verifique si la cadena "Codificacion para todos" contiene una palabra Coding usando el método index, find u otros métodos.
-#esperar_tecla_para_continuar()
-#print(f"")
+#  11  Reemplace la palabra "codificación" en la cadena 'Codificación para todos' por Python.
+nueva_empresa = empresa.replace("Codificación","Natación")
+print(f"Nueva cadena = {nueva_empresa}")
+esperar_tecla_para_continuar()
 
-#  11  Reemplace la palabra codificación en la cadena 'Codificación para todos' por Python.
-#esperar_tecla_para_continuar()
-#print(f"")
-
-#  12  Cambie Python para todos a Python para todos usando el método de reemplazo u otros métodos.
-
+#  12  Cambie "Python para cada uno" a "Python para todos" usando el método de reemplazo u otros métodos.
+cadena_original = "Python para cada uno"
+print(f"cadena_original = {cadena_original}")
+cadena_nueva = cadena_original.replace("cada uno","todos")
+print(f"cadena_nueva = {cadena_nueva}")
+esperar_tecla_para_continuar()
 
 #  13  Divida la cadena 'Codificación para todos' usando el espacio como separador (split()) .
+separador = empresa.split(" ")
+print(separador)
 
 
 #  14  "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" divide la cadena en la coma.
