@@ -145,7 +145,6 @@ esperar_tecla_para_continuar()
 #  13  Divida la cadena 'Codificación para todos' usando el espacio como separador (split()) .
 separador = empresa.split("-")
 print(separador)
-"""
 
 #  14  "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" divide la cadena en la coma.
 lista_empresas = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
@@ -168,17 +167,42 @@ caracter_0 = empresa[10]
 print(caracter_0)
 esperar_tecla_para_continuar()
 
-#  18  Cree un acrónimo o una abreviatura para el nombre 'Python For Everyone'.
+#  18  Cree un acrónimo o una abreviatura para el nombre 'Python para cada uno'.
+texto = "Python Para Cada Uno"
+palabras = texto.split()
+primeras_letras = ""
 
+for palabra in palabras:
+    primera_letra = palabra[0]
+    primeras_letras += primera_letra    
 
-#  19  Cree un acrónimo o una abreviatura para el nombre 'Codificación para todos'.
+print(f"Acrónimo de \"Python Para Cada Uno\" = {primeras_letras}")
+esperar_tecla_para_continuar()
 
+#  19  Cree un acrónimo o una abreviatura para el nombre 'Codificación Para Todos'.
+texto = "Codificación Para Todos"
+palabras = texto.split()
+primeras_letras = ""
 
+for palabra in palabras:
+    primera_letra = palabra[0]
+    primeras_letras += primera_letra    
+
+print(f"Acrónimo de \"Codificación Para Todos\" = {primeras_letras}")
+esperar_tecla_para_continuar()
+
+"""
 #  20  Use index para determinar la posición de la primera aparición de C en "Codificacion para todos".
+texto = "Codificacion para todos"
+letra = "C"
+posicion = texto.index("C")
+print(f"La letra 'C' esta en la posición: {posicion}")
 
-
-#  21  Utilice el índice para determinar la posición de la primera aparición de F en "Codificacion para todos".
-
+#  21  Utilice el índice para determinar la posición de la primera aparición de T en "Codificacion para todos".
+texto = "Codificacion para todos"
+letra = "t"
+posicion = texto.index("t")
+print(f"La letra 'C' esta en la posición: {posicion}")
 
 #  22  Use rfind para determinar la posición de la última aparición de l en "Codificacion para todos" People.
 
