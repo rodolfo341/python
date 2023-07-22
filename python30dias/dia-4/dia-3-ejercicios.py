@@ -2,7 +2,7 @@ import msvcrt
 def esperar_tecla_para_continuar():
     print("\n\tPresiona cualquier tecla para continuar... \n")
     msvcrt.getch()
-
+""""
 #   1  Concatene la cadena 'Treinta', 'Días', 'De', 'Python' en una sola cadena, 'Treinta días de Python'.
 #   2  Concatene la cadena 'Codificación', 'Para', 'Todos' en una sola cadena, 'Codificación para todos'.
 #   3  Declare una variable llamada empresa y asígnele un valor inicial "Codificación para todos".
@@ -81,8 +81,9 @@ print('Codificación', 'Para', 'Todos')
 #   3  Declare una variable llamada empresa y asígnele un valor inicial "Codificación para todos".
 esperar_tecla_para_continuar()
 print("Crear la variable 'empresa' con el valor \"Codificacion para todos\"")
+"""
 empresa = "Codificación para todos"
-
+"""
 #   4  Imprime la empresa variable usando print() .
 esperar_tecla_para_continuar()
 print("Imprime a: 'empresa'")
@@ -142,21 +143,30 @@ print(f"cadena_nueva = {cadena_nueva}")
 esperar_tecla_para_continuar()
 
 #  13  Divida la cadena 'Codificación para todos' usando el espacio como separador (split()) .
-separador = empresa.split(" ")
+separador = empresa.split("-")
 print(separador)
-
+"""
 
 #  14  "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" divide la cadena en la coma.
-
+lista_empresas = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+separador = lista_empresas.split(",")
+print(separador)
+esperar_tecla_para_continuar()
 
 #  15  ¿Cuál es el carácter en el índice 0 en la cadena "Codificacion para todos" ?
-
+caracter_0 = empresa[0]
+print(caracter_0)
+esperar_tecla_para_continuar()
 
 #  16  ¿Cuál es el último índice de la cadena "Codificacion para todos" ?
-
+caracter_0 = empresa[-1]
+print(caracter_0)
+esperar_tecla_para_continuar()
 
 #  17  Qué carácter está en el índice 10 en la cadena "Codificación para todos".
-
+caracter_0 = empresa[10]
+print(caracter_0)
+esperar_tecla_para_continuar()
 
 #  18  Cree un acrónimo o una abreviatura para el nombre 'Python For Everyone'.
 
