@@ -191,7 +191,6 @@ for palabra in palabras:
 print(f"Acrónimo de \"Codificación Para Todos\" = {primeras_letras}")
 esperar_tecla_para_continuar()
 
-"""
 #  20  Use index para determinar la posición de la primera aparición de C en "Codificacion para todos".
 texto = "Codificacion para todos"
 letra = "C"
@@ -204,10 +203,17 @@ letra = "t"
 posicion = texto.index("t")
 print(f"La letra 'C' esta en la posición: {posicion}")
 
-#  22  Use rfind para determinar la posición de la última aparición de l en "Codificacion para todos" People.
-
-
+#  22  Use rfind para determinar la posición de la última aparición de "a" en "Codificacion para todos" People.
+texto = "Codificacion para todos"
+largo_cadena = texto.rfind("") - 1 # longitud de la cadena
+indice = texto.rfind("a",0,largo_cadena)
+print(f"Ultima aparicion de la letra \"a\" en la cadena es en el indice: {indice}")
+"""
 #  23  Use índice o busque para encontrar la posición de la primera aparición de la palabra 'porque' en la siguiente #      oración: 'No puede terminar una oración con porque porque porque es una conjunción'
+texto = "No puede terminar una oración con porque porque porque es una conjunción"
+posicion = texto.find("porque")
+print(f"la posicion de la palabra \"porque\" esta en el indice [{posicion}]")
+
 
 
 #  24  Use rindex para encontrar la posición de la última aparición de la palabra porque en la siguiente oración: 'No #      puede terminar una oración con porque porque porque es una conjunción'
