@@ -196,28 +196,35 @@ texto = "Codificacion para todos"
 letra = "C"
 posicion = texto.index("C")
 print(f"La letra 'C' esta en la posición: {posicion}")
+esperar_tecla_para_continuar()
 
 #  21  Utilice el índice para determinar la posición de la primera aparición de T en "Codificacion para todos".
 texto = "Codificacion para todos"
 letra = "t"
 posicion = texto.index("t")
 print(f"La letra 'C' esta en la posición: {posicion}")
+esperar_tecla_para_continuar()
 
 #  22  Use rfind para determinar la posición de la última aparición de "a" en "Codificacion para todos" People.
 texto = "Codificacion para todos"
 largo_cadena = texto.rfind("") - 1 # longitud de la cadena
 indice = texto.rfind("a",0,largo_cadena)
 print(f"Ultima aparicion de la letra \"a\" en la cadena es en el indice: {indice}")
-"""
+esperar_tecla_para_continuar()
+
 #  23  Use índice o busque para encontrar la posición de la primera aparición de la palabra 'porque' en la siguiente #      oración: 'No puede terminar una oración con porque porque porque es una conjunción'
 texto = "No puede terminar una oración con porque porque porque es una conjunción"
 posicion = texto.find("porque")
 print(f"la posicion de la palabra \"porque\" esta en el indice [{posicion}]")
+esperar_tecla_para_continuar()
+"""
 
-
-
-#  24  Use rindex para encontrar la posición de la última aparición de la palabra porque en la siguiente oración: 'No #      puede terminar una oración con porque porque porque es una conjunción'
-
+#  24  Use rindex para encontrar la posición de la última aparición de la palabra porque en la siguiente oración: 
+# 'No puede terminar una oración con porque porque porque es una conjunción'
+oracion = "No puede terminar una oración con porque porque porque es una conjunción"
+palabra = "porque"
+ultim_indice = oracion.rindex(palabra)
+print(f"La ultima vez que aparece {palabra} es en el indice {ultim_indice}")
 
 #  25  Corta la frase 'porque porque porque' en la siguiente oración: 'No puedes terminar una oración con porque porque #      porque es una conjunción'
 
