@@ -217,7 +217,7 @@ texto = "No puede terminar una oración con porque porque porque es una conjunci
 posicion = texto.find("porque")
 print(f"la posicion de la palabra \"porque\" esta en el indice [{posicion}]")
 esperar_tecla_para_continuar()
-"""
+
 
 #  24  Use rindex para encontrar la posición de la última aparición de la palabra porque en la siguiente oración: 
 # 'No puede terminar una oración con porque porque porque es una conjunción'
@@ -225,9 +225,15 @@ oracion = "No puede terminar una oración con porque porque porque es una conjun
 palabra = "porque"
 ultim_indice = oracion.rindex(palabra)
 print(f"La ultima vez que aparece {palabra} es en el indice {ultim_indice}")
+esperar_tecla_para_continuar()
+"""
 
-#  25  Corta la frase 'porque porque porque' en la siguiente oración: 'No puedes terminar una oración con porque porque #      porque es una conjunción'
-
+#  25  Corta la frase 'porque porque porque' en la siguiente oración: 
+# 'No puedes terminar una oración con porque porque porque es una conjunción'
+oracion = "No puedes terminar una oración con porque porque porque es una conjunción"
+palabra = "porque"
+partes = oracion.split(palabra)
+print(partes)
 
 #  26  Encuentre la posición de la primera aparición de la palabra 'porque' en la siguiente oración: 'No puede terminar #      una oración con porque porque porque es una conjunción'
 
