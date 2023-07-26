@@ -275,8 +275,6 @@ oracion = " Codificación para todos "
 oracion_sin_espacios = oracion.strip()
 print(f"Oracion sin espacios \"{oracion_sin_espacios}\"")
 
-
-
 #  31  ¿Cuál de las siguientes variables devuelve True cuando usamos el método isidentifier():
 #           30DíasDePython
 #           treinta_dias_de_python
