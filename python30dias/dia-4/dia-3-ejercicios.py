@@ -283,7 +283,7 @@ cadena2 = "treinta_dias_de_python"
 print(cadena1.isidentifier())
 print(cadena2.isidentifier())
 esperar_tecla_para_continuar()
-"""
+
 
 #  32  La siguiente lista contiene los nombres de algunas de las bibliotecas de Python: 
 #      ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. 
@@ -291,17 +291,18 @@ esperar_tecla_para_continuar()
 lista = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
 resultado = " ".join(lista)
 print(resultado)
-
-
+esperar_tecla_para_continuar()
+"""
 
 #  33  Use la secuencia de escape de nueva línea para separar las siguientes oraciones. 
 #           I am enjoying this challenge.
 #           I just wonder what is next.
-
+print("I am enjoying this challenge.\nI just wonder what is next.")
 
 #  34  Use una secuencia de escape de tabulación para escribir las siguientes líneas. 
 #           Name      Age     Country   City
 #           Asabeneh  250     Finland   Helsinki
+print("Name Age Country City Asabeneh 250 Finland Helsinki")
 
 
 #  35  Utilice el método de formato de cadena para mostrar lo siguiente: 
