@@ -285,7 +285,12 @@ print(cadena2.isidentifier())
 esperar_tecla_para_continuar()
 """
 
-#  32  La siguiente lista contiene los nombres de algunas de las bibliotecas de Python: ['Django', 'Flask', 'Bottle', #      'Pyramid', 'Falcon']. Únase a la lista con un hash con cadena de espacio. 
+#  32  La siguiente lista contiene los nombres de algunas de las bibliotecas de Python: 
+#      ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. 
+#      Únase a la lista con un hash con cadena de espacio. 
+lista = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+resultado = " ".join(lista)
+print(resultado)
 
 
 
