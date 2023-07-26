@@ -268,12 +268,12 @@ if oracion.endswith(palabra):
 else:
     print(f"La palabra {palabra} no esta al final")
 esperar_tecla_para_continuar()
-"""
 
 #  30  ' Codificación para todos ', elimine los espacios finales izquierdo y derecho en la cadena dada. 
 oracion = " Codificación para todos "
 oracion_sin_espacios = oracion.strip()
 print(f"Oracion sin espacios \"{oracion_sin_espacios}\"")
+esperar_tecla_para_continuar()
 
 #  31  ¿Cuál de las siguientes variables devuelve True cuando usamos el método isidentifier():
 #           30DíasDePython
@@ -282,9 +282,11 @@ cadena1 = "30DíasDePython"
 cadena2 = "treinta_dias_de_python"
 print(cadena1.isidentifier())
 print(cadena2.isidentifier())
-
+esperar_tecla_para_continuar()
+"""
 
 #  32  La siguiente lista contiene los nombres de algunas de las bibliotecas de Python: ['Django', 'Flask', 'Bottle', #      'Pyramid', 'Falcon']. Únase a la lista con un hash con cadena de espacio. 
+
 
 
 #  33  Use la secuencia de escape de nueva línea para separar las siguientes oraciones. 
