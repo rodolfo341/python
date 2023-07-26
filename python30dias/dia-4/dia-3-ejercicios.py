@@ -241,7 +241,6 @@ texto = "No puede terminar una oración con porque porque porque es una conjunci
 posicion = texto.find("porque")
 print(f"la posicion de la palabra \"porque\" esta en el indice [{posicion}]")
 esperar_tecla_para_continuar()
-"""
 
 #  27  Corta la frase 'porque porque porque' en la siguiente oración: 'No puedes terminar una oración con porque porque #      porque es una conjunción'
 oracion = "No puedes terminar una oración con porque porque porque es una conjunción"
@@ -249,11 +248,13 @@ palabra = "porque"
 partes = oracion.split(palabra)
 print(partes)
 esperar_tecla_para_continuar()
+"""
 
-#  28  ¿'"Codificacion para todos"' comienza con una subcadena Coding ?
+#  28  ¿'"Codificacion para todos"' comienza con una subcadena Codificacion ?
+oracion = "Codificacion para todos"
+palabra = "Codificacion"
 
-
-#  29  ¿'Codificación para todos' termina con una codificación de subcadena ?
+#  29  ¿'Codificación para todos' termina con una codificación de subcadena Codificacion ?
 
 
 #  30  ' Codificación para todos ', elimine los espacios finales izquierdo y derecho en la cadena dada. 
