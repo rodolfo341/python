@@ -278,6 +278,10 @@ print(f"Oracion sin espacios \"{oracion_sin_espacios}\"")
 #  31  ¿Cuál de las siguientes variables devuelve True cuando usamos el método isidentifier():
 #           30DíasDePython
 #           treinta_dias_de_python
+cadena1 = "30DíasDePython"
+cadena2 = "treinta_dias_de_python"
+print(cadena1.isidentifier())
+print(cadena2.isidentifier())
 
 
 #  32  La siguiente lista contiene los nombres de algunas de las bibliotecas de Python: ['Django', 'Flask', 'Bottle', #      'Pyramid', 'Falcon']. Únase a la lista con un hash con cadena de espacio. 
