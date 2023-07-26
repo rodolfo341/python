@@ -248,16 +248,33 @@ palabra = "porque"
 partes = oracion.split(palabra)
 print(partes)
 esperar_tecla_para_continuar()
-"""
 
 #  28  ¿'"Codificacion para todos"' comienza con una subcadena Codificacion ?
 oracion = "Codificacion para todos"
 palabra = "Codificacion"
+posicion = oracion.find(palabra)
+if posicion == 0:
+    print(f"La palabra {palabra} es al comienzo ")
+else:
+    print(f"La palabra {palabra} no es al comienzo ")
+esperar_tecla_para_continuar()
 
 #  29  ¿'Codificación para todos' termina con una codificación de subcadena Codificacion ?
+oracion = "Codificacion para todos-"
+palabra = "Codificacion"
 
+if oracion.endswith(palabra):
+    print(f"La palabra {palabra} esta al final")
+else:
+    print(f"La palabra {palabra} no esta al final")
+esperar_tecla_para_continuar()
+"""
 
 #  30  ' Codificación para todos ', elimine los espacios finales izquierdo y derecho en la cadena dada. 
+oracion = " Codificación para todos "
+oracion_sin_espacios = oracion.strip()
+print(f"Oracion sin espacios \"{oracion_sin_espacios}\"")
+
 
 
 #  31  ¿Cuál de las siguientes variables devuelve True cuando usamos el método isidentifier():
