@@ -292,18 +292,18 @@ lista = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
 resultado = " ".join(lista)
 print(resultado)
 esperar_tecla_para_continuar()
-"""
 
 #  33  Use la secuencia de escape de nueva línea para separar las siguientes oraciones. 
 #           I am enjoying this challenge.
 #           I just wonder what is next.
 print("I am enjoying this challenge.\nI just wonder what is next.")
+esperar_tecla_para_continuar()
 
 #  34  Use una secuencia de escape de tabulación para escribir las siguientes líneas. 
 #           Name      Age     Country   City
 #           Asabeneh  250     Finland   Helsinki
 print("Name\t\tAge\tCountry\t\tCity\nAsabeneh\t250\tFinland\t\tHelsinki")
-
+esperar_tecla_para_continuar
 
 #  35  Utilice el método de formato de cadena para mostrar lo siguiente: 
 #           radius = 10
@@ -312,15 +312,17 @@ print("Name\t\tAge\tCountry\t\tCity\nAsabeneh\t250\tFinland\t\tHelsinki")
 radius = 10
 area = 3.14 * radius ** 2
 print(f"The area of a circle with radius {radius} is {area} meters square.")
-
+esperar_tecla_para_continuar()
+"""
 
 #  36  Haga lo siguiente usando métodos de formato de cadena: 
-#           8 + 6 = 14
-#           8 - 6 = 2
-#           8 * 6 = 48
-#           8 / 6 = 1.33
-#           8 % 6 = 2
-#           8 // 6 = 1
-#           8 ** 6 = 262144
+
+print(f"8 + 6 = 14")
+print(f"8 - 6 = 2")
+print(f"8 * 6 = 48")
+print(f"8 / 6 = 1.33")
+print(f"8 % 6 = 2")
+print(f"8 // 6 = 1")
+print(f"8 ** 6 = 262144")
 
 
