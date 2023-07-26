@@ -302,13 +302,16 @@ print("I am enjoying this challenge.\nI just wonder what is next.")
 #  34  Use una secuencia de escape de tabulación para escribir las siguientes líneas. 
 #           Name      Age     Country   City
 #           Asabeneh  250     Finland   Helsinki
-print("Name Age Country City Asabeneh 250 Finland Helsinki")
+print("Name\t\tAge\tCountry\t\tCity\nAsabeneh\t250\tFinland\t\tHelsinki")
 
 
 #  35  Utilice el método de formato de cadena para mostrar lo siguiente: 
 #           radius = 10
 #           area = 3.14 * radius ** 2
 #           The area of a circle with radius 10 is 314 meters square.
+radius = 10
+area = 3.14 * radius ** 2
+print(f"The area of a circle with radius {radius} is {area} meters square.")
 
 
 #  36  Haga lo siguiente usando métodos de formato de cadena: 
