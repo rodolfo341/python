@@ -46,16 +46,16 @@ print(penultima)      # durazno
 
 # Slicing items
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
-all_frutas = frutas[0:4] # it returns all the frutas
+todas_las_frutas = frutas[0:4] # it returns all the frutas
 # this is also give the same result as the above
-all_frutas = frutas[0:] # if we don't set where to stop it takes all the rest
-naranja_and_durazno = frutas[1:3] # it does not include the end index
+todas_las_frutas = frutas[0:] # if we don't set where to stop it takes all the rest
+naranja_y_durazno = frutas[1:3] # it does not include the end index
 naranja_durazno_limon = frutas[1:]
 
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
-all_frutas = frutas[-4:] # it returns all the frutas
+todas_las_frutas = frutas[-4:] # it returns all the frutas
 # this is also give the same result as the above
-naranja_and_durazno = frutas[-3:-1] # it does not include the end index
+naranja_y_durazno = frutas[-3:-1] # it does not include the end index
 naranja_durazno_limon = frutas[-3:]
 
 
@@ -133,7 +133,7 @@ integers = negative_nuvegetalesro + positive_numbers
 print(integers)
 frutas = ['platano', 'naranja', 'durazno', 'limon']
 vegetales = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria'] 
-frutas_and_vegetablelechefrutcarne vegmantequFinlandiarint(frutas_andDinamarca
+frutas_y_vegetablelechefrutcarne vegmantequFinlandiarint(frutas_andDinamarca
 # jSuizath eNorueganum1 = [0, 1, 2, 3]
 num2= [4, 5,6]
 num1.extend(num2)
