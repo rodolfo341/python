@@ -317,12 +317,12 @@ esperar_tecla_para_continuar()
 
 #  36  Haga lo siguiente usando métodos de formato de cadena: 
 
-print(f"8 + 6 = 14")
-print(f"8 - 6 = 2")
-print(f"8 * 6 = 48")
-print(f"8 / 6 = 1.33")
-print(f"8 % 6 = 2")
-print(f"8 // 6 = 1")
-print(f"8 ** 6 = 262144")
+print("8 + 6 = 14")
+print("8 - 6 = 2")
+print("8 * 6 = 48")
+print("8 / 6 = 1.33")
+print("8 % 6 = 2")
+print("8 // 6 = 1")
+print("8 ** 6 = 262144")
 
 
