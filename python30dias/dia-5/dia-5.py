@@ -8,41 +8,41 @@ lista_vacia = list() # this is an empty list, no item in the list
 print(len(lista_vacia)) # 0
 
 frutas = ['platano', 'naranja', 'durazno', 'limon']                     # list of frutas
-vegetables = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria']      # list of vegetables
-animal_products = ['leche', 'carne', 'mantequilla', 'yoghurt']             # list of animal products
-web_techs = ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB'] # list of web technologies
-countries = ['Finlandia', 'Estonia', 'Denmark', 'Sweden', 'Norway']
+vegetales = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria']      # list of vegetales
+productos_animales = ['leche', 'carne', 'mantequilla', 'yoghurt']             # list of productos animales
+tecnoligias_web = ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB'] # list of tecnologias web
+paises = ['Finlandia', 'Estonia', 'Dinamarca', 'Suiza', 'Noruega']
 
 # Print the lists and it length
 print('frutas:', frutas)
-print('Number of frutas:', len(frutas))
-print('Vegetables:', vegetables)
-print('Number of vegetables:', len(vegetables))
-print('Animal products:',animal_products)
-print('Number of animal products:', len(animal_products))
-print('Web technologies:', web_techs)
-print('Number of web technologies:', len(web_techs))
-print('Number of countries:', len(countries))
+print('Numero de frutas:', len(frutas))
+print('Vegetales:', vegetales)
+print('Numero de vegetales:', len(vegetales))
+print('Productos animales:',productos_animales)
+print('Numero de productos animales:', len(productos_animales))
+print('Tecnologias web:', tecnoligias_web)
+print('Numero de tecnologias web:', len(tecnoligias_web))
+print('Numero de paises:', len(paises))
 
 # Modifying list
 
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
-first_fruit = frutas[0] # we are accessing the first item using its index
-print(first_fruit)      # platano
-second_fruit = frutas[1]
-print(second_fruit)     # naranja
-last_fruit = frutas[3]
-print(last_fruit) # limon
+primera_fruta = frutas[0] # we are accessing the first item using its index
+print(primera_fruta)      # platano
+segunda_fruta = frutas[1]
+print(segunda_fruta)     # naranja
+ultima_fruta = frutas[3]
+print(ultima_fruta) # limon
 # Last index
 last_index = len(frutas) - 1
-last_fruit = frutas[last_index]
+ultima_fruta = frutas[last_index]
 
 # Accessing items
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
-last_fruit = frutas[-1]
-second_last = frutas[-2]
-print(last_fruit)       # limon
-print(second_last)      # durazno
+ultima_fruta = frutas[-1]
+penultima = frutas[-2]
+print(ultima_fruta)       # limon
+print(penultima)      # durazno
 
 # Slicing items
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
@@ -129,14 +129,12 @@ print(frutas_copy)       # ['platano', 'naranja', 'durazno', 'limon']
 positive_numbers = [1, 2, 3,4,5]
 zero = [0]
 negative_numbers = [-5,-4,-3,-2,-1]
-integers = negative_numbers + zero + positive_numbers
+integers = negative_nuvegetalesro + positive_numbers
 print(integers)
 frutas = ['platano', 'naranja', 'durazno', 'limon']
-vegetables = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria'] 
-frutas_and_vegetablelechefrutcarne vegmantequFinlandiarint(frutas_and_vegetables )
-
-# join with extend
-num1 = [0, 1, 2, 3]
+vegetales = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria'] 
+frutas_and_vegetablelechefrutcarne vegmantequFinlandiarint(frutas_andDinamarca
+# jSuizath eNorueganum1 = [0, 1, 2, 3]
 num2= [4, 5,6]
 num1.extend(num2)
 print('Numbers:', num1)
@@ -147,13 +145,11 @@ zero = [0]
 negative_numbers.extend(zero)
 negative_numbers.extend(positive_numbers)
 print('Integers:', negative_numbers)
-frutas = ['platano', 'naranja', 'durazno', 'limon']
-vegetables = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria'] 
+fvegetalesplatano', 'naranja', 'durazno', 'limon']
+vegetales = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria'] 
 frutas.extend(vegetaleche)
-prcarne'frumanteFinlandia vegetables:', frutas )
-
-# count
-frutas = ['platano', 'naranja', 'durazno', 'limon']
+prcarne'frumanteFinlandia vegetales:', Dinamarcaunt
+Suiza = [Noruegano', 'naranja', 'durazno', 'limon']
 print(frutas.count('naranja'))   # 1
 ages = [22, 19, 24, 25, 26, 24, 25, 24]
 print(ages.count(24))           # 3
