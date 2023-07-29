@@ -34,8 +34,8 @@ print(segunda_fruta)     # naranja
 ultima_fruta = frutas[3]
 print(ultima_fruta) # limon
 # Last index
-last_index = len(frutas) - 1
-ultima_fruta = frutas[last_index]
+ultimo_indice = len(frutas) - 1
+ultima_fruta = frutas[ultimo_indice]
 
 # Accessing items
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
@@ -60,33 +60,33 @@ naranja_durazno_limon = frutas[-3:]
 
 
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
-frutas[0] = 'Avocado' 
-print(frutas)       #  ['avocado', 'naranja', 'durazno', 'limon']
-frutas[1] = 'apple'
-print(frutas)       #  ['avocado', 'apple', 'durazno', 'limon']
-last_index = len(frutas) - 1
-frutas[last_index] = 'lime'
-print(frutas)        #  ['avocado', 'apple', 'durazno', 'lime']
+frutas[0] = 'palta' 
+print(frutas)       #  ['palta', 'naranja', 'durazno', 'limon']
+frutas[1] = 'manzana'
+print(frutas)       #  ['palta', 'manzana', 'durazno', 'limon']
+ultimo_indice = len(frutas) - 1
+frutas[ultimo_indice] = 'lime'
+print(frutas)        #  ['palta', 'manzana', 'durazno', 'lime']
 
 # checking items
 frutas = ['platano', 'naranja', 'durazno', 'limon']
-does_exist = 'platano' in frutas
-print(does_exist)  # True
-does_exist = 'lime' in frutas
-print(does_exist)  # False
+existe = 'platano' in frutas
+print(existe)  # True
+existe = 'lime' in frutas
+print(existe)  # False
 
 # Append
 frutas = ['platano', 'naranja', 'durazno', 'limon']
-frutas.append('apple')
-print(frutas)           # ['platano', 'naranja', 'durazno', 'limon', 'apple']
-frutas.append('lime')   # ['platano', 'naranja', 'durazno', 'limon', 'apple', 'lime]
+frutas.append('manzana')
+print(frutas)           # ['platano', 'naranja', 'durazno', 'limon', 'manzana']
+frutas.append('lime')   # ['platano', 'naranja', 'durazno', 'limon', 'manzana', 'lime]
 print(frutas)
 
 # insert
 frutas = ['platano', 'naranja', 'durazno', 'limon']
-frutas.insert(2, 'apple') # insert apple between naranja and durazno
-print(frutas)           # ['platano', 'naranja', 'apple', 'durazno', 'limon']
-frutas.insert(3, 'lime')   # ['platano', 'naranja', 'apple', 'durazno', 'lime','limon',]
+frutas.insert(2, 'manzana') # insert manzana between naranja and durazno
+print(frutas)           # ['platano', 'naranja', 'manzana', 'durazno', 'limon']
+frutas.insert(3, 'lime')   # ['platano', 'naranja', 'manzana', 'durazno', 'lime','limon',]
 print(frutas)
 
 # remove
