@@ -81,9 +81,9 @@ print('Codificación', 'Para', 'Todos')
 #   3  Declare una variable llamada empresa y asígnele un valor inicial "Codificación para todos".
 esperar_tecla_para_continuar()
 print("Crear la variable 'empresa' con el valor \"Codificacion para todos\"")
-"""
+
 empresa = "Codificación para todos"
-"""
+
 #   4  Imprime la empresa variable usando print() .
 esperar_tecla_para_continuar()
 print("Imprime a: 'empresa'")
