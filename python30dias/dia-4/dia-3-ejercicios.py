@@ -2,7 +2,7 @@ import msvcrt
 def esperar_tecla_para_continuar():
     print("\n\tPresiona cualquier tecla para continuar... \n")
     msvcrt.getch()
-""""
+
 #   1  Concatene la cadena 'Treinta', 'Días', 'De', 'Python' en una sola cadena, 'Treinta días de Python'.
 #   2  Concatene la cadena 'Codificación', 'Para', 'Todos' en una sola cadena, 'Codificación para todos'.
 #   3  Declare una variable llamada empresa y asígnele un valor inicial "Codificación para todos".
@@ -313,7 +313,7 @@ radius = 10
 area = 3.14 * radius ** 2
 print(f"The area of a circle with radius {radius} is {area} meters square.")
 esperar_tecla_para_continuar()
-"""
+
 
 #  36  Haga lo siguiente usando métodos de formato de cadena: 
 
