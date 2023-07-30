@@ -111,7 +111,7 @@ print(frutas)       # ['naranja', 'durazno', 'limon']
 
 del frutas[1]     
 print(frutas)       # ['naranja', 'limon']
-del frutas
+# del frutas
 print(frutas)       # This should give: NameError: name 'frutas' is not defined
 
 # clear
@@ -122,50 +122,54 @@ print(frutas)       # []
 # copying a lits
 
 frutas = ['platano', 'naranja', 'durazno', 'limon']
-frutas_copy = frutas.copy()     
-print(frutas_copy)       # ['platano', 'naranja', 'durazno', 'limon']
+copiar_fruta = frutas.copy()     
+print(copiar_fruta)       # ['platano', 'naranja', 'durazno', 'limon']
 
 # join
-positive_numbers = [1, 2, 3,4,5]
-zero = [0]
-negative_numbers = [-5,-4,-3,-2,-1]
-integers = negative_nuvegetalesro + positive_numbers
+numeros_positivos = [1, 2, 3,4,5]
+cero = [0]
+numeros_negativos = [-5,-4,-3,-2,-1]
+integers = numeros_negativos + cero + numeros_positivos
 print(integers)
 frutas = ['platano', 'naranja', 'durazno', 'limon']
 vegetales = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria'] 
-frutas_y_vegetablelechefrutcarne vegmantequFinlandiarint(frutas_andDinamarca
-# jSuizath eNorueganum1 = [0, 1, 2, 3]
-num2= [4, 5,6]
-num1.extend(num2)
-print('Numbers:', num1)
-negative_numbers = [-5,-4,-3,-2,-1]
-positive_numbers = [1, 2, 3,4,5]
-zero = [0]
+frutas_y_vegetales = frutas + vegetales
+print(frutas_y_vegetales)
 
-negative_numbers.extend(zero)
-negative_numbers.extend(positive_numbers)
-print('Integers:', negative_numbers)
-fvegetalesplatano', 'naranja', 'durazno', 'limon']
+# join with extend
+num1 = [0, 1, 2, 3]
+num2 = [4, 5,6]
+num1.extend(num2)
+print('Numeros:', num1)
+numeros_negativos = [-5,-4,-3,-2,-1]
+numeros_positivos = [1, 2, 3,4,5]
+cero = [0]
+
+numeros_negativos.extend(cero)
+numeros_negativos.extend(numeros_positivos)
+print('Integers:', numeros_negativos)
+frutas = ['platano', 'naranja', 'durazno', 'limon']
 vegetales = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria'] 
-frutas.extend(vegetaleche)
-prcarne'frumanteFinlandia vegetales:', Dinamarcaunt
-Suiza = [Noruegano', 'naranja', 'durazno', 'limon']
+frutas.extend(vegetales)
+print('Frutas y vegetales:', frutas )
+
+Suiza = ['durazno', 'naranja', 'durazno', 'limon']
 print(frutas.count('naranja'))   # 1
-ages = [22, 19, 24, 25, 26, 24, 25, 24]
-print(ages.count(24))           # 3
+edades = [22, 19, 24, 25, 26, 24, 25, 24]
+print(edades.count(24))           # 3
 
 # index
 frutas = ['platano', 'naranja', 'durazno', 'limon']
 print(frutas.index('naranja'))   # 1
-ages = [22, 19, 24, 25, 26, 24, 25, 24]
-print(ages.index(24)) 
+edades = [22, 19, 24, 25, 26, 24, 25, 24]
+print(edades.index(24)) 
 # Reverse
 frutas = ['platano', 'naranja', 'durazno', 'limon']
 frutas.reverse()
 print(frutas)  
-ages = [22, 19, 24, 25, 26, 24, 25, 24]
-ages.reverse()
-print(ages) 
+edades = [22, 19, 24, 25, 26, 24, 25, 24]
+edades.reverse()
+print(edades) 
 
 # sort
 frutas = ['platano', 'naranja', 'durazno', 'limon']
@@ -173,10 +177,10 @@ frutas.sort()
 print(frutas) 
 frutas.sort(reverse=True)
 print(frutas)
-ages = [22, 19, 24, 25, 26, 24, 25, 24]
-ages.sort()
-print(ages) 
-ages.sort(reverse=True)
-print(ages) 
+edades = [22, 19, 24, 25, 26, 24, 25, 24]
+edades.sort()
+print(edades) 
+edades.sort(reverse=True)
+print(edades) 
 
 # Java341@.lang
