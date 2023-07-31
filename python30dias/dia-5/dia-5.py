@@ -3,7 +3,7 @@ def esperar_tecla_para_continuar():
     print("\n\tPresiona cualquier tecla para continuar... \n")
     msvcrt.getch()
 
-
+print(f"Lista vacia")
 lista_vacia = list() # this is an empty list, no item in the list
 print(len(lista_vacia)) # 0
 
@@ -13,7 +13,10 @@ productos_animales = ['leche', 'carne', 'mantequilla', 'yoghurt']             # 
 tecnoligias_web = ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB'] # list of tecnologias web
 paises = ['Finlandia', 'Estonia', 'Dinamarca', 'Suiza', 'Noruega']
 
-# Print the lists and it length
+# Print the listas y longitud
+esperar_tecla_para_continuar()
+print("Print the listas y longitud")
+
 print('frutas:', frutas)
 print('Numero de frutas:', len(frutas))
 print('Vegetales:', vegetales)
@@ -24,20 +27,22 @@ print('Tecnologias web:', tecnoligias_web)
 print('Numero de tecnologias web:', len(tecnoligias_web))
 print('Numero de paises:', len(paises))
 
-# Modifying list
+# Modificando lista
+esperar_tecla_para_continuar()
+print("Modificando lista\n")
 
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
-primera_fruta = frutas[0] # we are accessing the first item using its index
+primera_fruta = frutas[0] # Accedemos al primer elemento usaando index
 print(primera_fruta)      # platano
 segunda_fruta = frutas[1]
 print(segunda_fruta)     # naranja
 ultima_fruta = frutas[3]
 print(ultima_fruta) # limon
-# Last index
+# Ultimo indice
 ultimo_indice = len(frutas) - 1
 ultima_fruta = frutas[ultimo_indice]
 
-# Accessing items
+# Accediendo a los items
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
 ultima_fruta = frutas[-1]
 penultima = frutas[-2]
