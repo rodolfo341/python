@@ -136,6 +136,7 @@ if len(it_companies) % 2 == 0:
 else:
     print(f"del medio: {it_companies[len(it_companies)//2]}")
 print()
+enter()
 
 # Elimina la primera compañía de TI de la lista.
 
@@ -151,10 +152,16 @@ if len(it_companies) % 2 == 0:
 else:
     it_companies.pop(len(it_companies)//2)
 print(it_companies)
+enter()
+
+# Elimina la última compañía de TI de la lista.
+print(f"lista antes: {it_companies}")
+it_companies.pop()
+print(f"lista despues: {it_companies}")
+
+
 
 """
-Elimina la última compañía de TI de la lista.
-
 Elimina todas las compañías de TI de la lista.
 
 Destruye la lista de compañías de TI.
