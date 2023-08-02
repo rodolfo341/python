@@ -1,11 +1,13 @@
 import msvcrt
-def esperar_tecla_para_continuar():
+def enter():
     print("\n\tPresiona cualquier tecla para continuar... \n")
     msvcrt.getch()
 
-print(f"Lista vacia")
+enter()
+print("Esto es una lista vacía, no hay elementos en la lista.")
 lista_vacia = list() # "Esto es una lista vacía, no hay elementos en la lista."
 print(len(lista_vacia)) # 0
+
 
 frutas = ['platano', 'naranja', 'durazno', 'limon']                     # lista de frutas
 vegetales = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria']      # lista de vegetales
@@ -14,7 +16,7 @@ tecnoligias_web = ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB'] # lis
 paises = ['Finlandia', 'Estonia', 'Dinamarca', 'Suiza', 'Noruega']
 
 # Print de listas y longitud
-esperar_tecla_para_continuar()
+enter()
 print("Print de listas y longitud")
 
 print('frutas:', frutas)
@@ -28,7 +30,7 @@ print('Numero de tecnologias web:', len(tecnoligias_web))
 print('Numero de paises:', len(paises))
 
 # Modificando lista
-esperar_tecla_para_continuar()
+enter()
 print("Modificando lista\n")
 
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
