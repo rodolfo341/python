@@ -4,18 +4,18 @@ def esperar_tecla_para_continuar():
     msvcrt.getch()
 
 print(f"Lista vacia")
-lista_vacia = list() # this is an empty list, no item in the list
+lista_vacia = list() # "Esto es una lista vacía, no hay elementos en la lista."
 print(len(lista_vacia)) # 0
 
-frutas = ['platano', 'naranja', 'durazno', 'limon']                     # list of frutas
-vegetales = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria']      # list of vegetales
-productos_animales = ['leche', 'carne', 'mantequilla', 'yoghurt']             # list of productos animales
-tecnoligias_web = ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB'] # list of tecnologias web
+frutas = ['platano', 'naranja', 'durazno', 'limon']                     # lista de frutas
+vegetales = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria']      # lista de vegetales
+productos_animales = ['leche', 'carne', 'mantequilla', 'yoghurt']             # lista de productos animales
+tecnoligias_web = ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB'] # lista de tecnologias web
 paises = ['Finlandia', 'Estonia', 'Dinamarca', 'Suiza', 'Noruega']
 
-# Print the listas y longitud
+# Print de listas y longitud
 esperar_tecla_para_continuar()
-print("Print the listas y longitud")
+print("Print de listas y longitud")
 
 print('frutas:', frutas)
 print('Numero de frutas:', len(frutas))
@@ -51,16 +51,16 @@ print(penultima)      # durazno
 
 # Slicing items
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
-todas_las_frutas = frutas[0:4] # it returns all the frutas
-# this is also give the same result as the above
-todas_las_frutas = frutas[0:] # if we don't set where to stop it takes all the rest
-naranja_y_durazno = frutas[1:3] # it does not include the end index
+todas_las_frutas = frutas[0:4] # "Devuelve todas las frutas"
+# "Esto también da el mismo resultado que el anterior."
+todas_las_frutas = frutas[0:] # "Si no especificamos dónde detenerse, toma todo el resto."
+naranja_y_durazno = frutas[1:3] # "No incluye el índice final."
 naranja_durazno_limon = frutas[1:]
 
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
-todas_las_frutas = frutas[-4:] # it returns all the frutas
-# this is also give the same result as the above
-naranja_y_durazno = frutas[-3:-1] # it does not include the end index
+todas_las_frutas = frutas[-4:] # "Devuelve todas las frutas"
+# "Esto también da el mismo resultado que el anterior."
+naranja_y_durazno = frutas[-3:-1] # "No incluye el índice final."
 naranja_durazno_limon = frutas[-3:]
 
 
@@ -117,7 +117,7 @@ print(frutas)       # ['naranja', 'durazno', 'limon']
 del frutas[1]     
 print(frutas)       # ['naranja', 'limon']
 # del frutas
-print(frutas)       # This should give: NameError: name 'frutas' is not defined
+print(frutas)       # "Esto debería dar como resultado: NameError: el nombre 'frutas' no está definido."
 
 # clear
 frutas = ['platano', 'naranja', 'durazno', 'limon']
@@ -141,7 +141,7 @@ vegetales = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria']
 frutas_y_vegetales = frutas + vegetales
 print(frutas_y_vegetales)
 
-# join with extend
+# join con extend
 num1 = [0, 1, 2, 3]
 num2 = [4, 5,6]
 num1.extend(num2)
