@@ -138,10 +138,12 @@ else:
 print()
 
 # Elimina la primera compañía de TI de la lista.
+
 print(it_companies)
+#"""
 it_companies.pop(0)
 print(it_companies)
-
+#"""
 # Elimina la(s) compañía(s) de TI del medio de la lista.
 if len(it_companies) % 2 == 0:
     it_companies.pop(len(it_companies)//2)
