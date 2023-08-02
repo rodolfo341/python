@@ -3,7 +3,6 @@
 lista = []
 print(f"lista vacía: {lista} \n")
 
-
 # Declara una lista con más de 5 elementos.
 
 lista = [1,2,1,3,44,22,78]
@@ -55,23 +54,56 @@ medio = len(it_companies) // 2
 it_companies.insert(medio, 'AliBaba')
 print(f"it_companies: {it_companies}\n") 
 
+# Cambia uno de los nombres de las compañías de "it_companies" a mayúsculas (¡excluye IBM!).
+print(f"Faecbook original: {it_companies[0]}") 
+it_companies[0] = it_companies[0].upper()
+print(f"Faecbook en mayúsculas : {it_companies[0]}\n") 
+
+# Combina las compañías de "it_companies" con un string "#; ".
+it_companies_combinada = '#'.join(it_companies)
+print(f"lista combinada con #: {it_companies_combinada}")
+
+# Comprueba si una cierta compañía existe en la lista "it_companies".
+if 'Google' in it_companies:
+    print('Google esta en la lista\n')
+else:
+    print('Google no está en la lista\n')
+
+# Ordena la lista usando el método sort().
+it_companies.sort()
+for companie in it_companies:
+    print(companie)
+print('\n')
+
+#  la lista en orden descendente usando el método reverse().
+it_reverse = it_companies[::-1]
+for it in it_reverse:
+    print(it)
+print('\n')
+
+# Extrae las primeras 3 compañías de la lista.
+for i in it_companies[:3]:
+   print(f'Compañia índice: {i}')
+print('\n')
+
+# Recorrer los últimos tres elementos con un bucle for
+for i in it_companies[-3:]:
+   print(f'Compañia índice: {i}')
+
+print('\n')
+
+# Extrae la(s) compañía(s) de TI del medio de la lista.
+
+# it_companies.pop() borro un elemento para probar opción par
+if len(it_companies) % 2 == 0:
+    print(it_companies[len(it_companies)//2])
+    print(it_companies[len(it_companies)//2 - 1])
+else:
+    print(it_companies[len(it_companies)//2])
+    
+
+
 """
-Cambia uno de los nombres de las compañías de "it_companies" a mayúsculas (¡excluye IBM!).
-
-Combina las compañías de "it_companies" con un string "#; ".
-
-Comprueba si una cierta compañía existe en la lista "it_companies".
-
-Ordena la lista usando el método sort().
-
-Invierte la lista en orden descendente usando el método reverse().
-
-Extrae las primeras 3 compañías de la lista.
-
-Extrae las últimas 3 compañías de la lista.
-
-Extrae la(s) compañía(s) de TI del medio de la lista.
-
 Elimina la primera compañía de TI de la lista.
 
 Elimina la(s) compañía(s) de TI del medio de la lista.
