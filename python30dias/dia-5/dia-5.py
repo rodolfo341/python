@@ -40,11 +40,13 @@ print(segunda_fruta)     # naranja
 ultima_fruta = frutas[3]
 print(ultima_fruta) # limon
 
+enter()
 # Ultimo indice
 print("Ultimo indice")
 ultimo_indice = len(frutas) - 1
 ultima_fruta = frutas[ultimo_indice]
 
+enter()
 # Accediendo a los items
 print("Accediendo a los items")
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
@@ -53,11 +55,13 @@ penultima = frutas[-2]
 print(ultima_fruta)       # limon
 print(penultima)      # durazno
 
+enter()
 # Slicing items
 print("Slicing items")
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
 todas_las_frutas = frutas[0:4] # "Devuelve todas las frutas"
 
+enter()
 # "Esto también da el mismo resultado que el anterior."
 print("Esto también da el mismo resultado que el anterior.")
 todas_las_frutas = frutas[0:] # "Si no especificamos dónde detenerse, toma todo el resto."
@@ -67,6 +71,8 @@ naranja_durazno_limon = frutas[1:]
 frutas = ['platano', 'naranja', 'durazno', 'limon'] 
 print("Devuelve todas las frutas")
 todas_las_frutas = frutas[-4:] # "Devuelve todas las frutas"
+
+enter()
 # "Esto también da el mismo resultado que el anterior."
 print("Esto también da el mismo resultado que el anterior.")
 naranja_y_durazno = frutas[-3:-1] # "No incluye el índice final."
@@ -82,6 +88,7 @@ ultimo_indice = len(frutas) - 1
 frutas[ultimo_indice] = 'lime'
 print(frutas)        #  ['palta', 'manzana', 'durazno', 'lime']
 
+enter()
 # checking items
 print("checking items")
 frutas = ['platano', 'naranja', 'durazno', 'limon']
@@ -90,6 +97,7 @@ print(existe)  # True
 existe = 'lime' in frutas
 print(existe)  # False
 
+enter()
 # Append
 print("Append")
 frutas = ['platano', 'naranja', 'durazno', 'limon']
@@ -98,6 +106,7 @@ print(frutas)           # ['platano', 'naranja', 'durazno', 'limon', 'manzana']
 frutas.append('lime')   # ['platano', 'naranja', 'durazno', 'limon', 'manzana', 'lime]
 print(frutas)
 
+enter()
 # insert
 print("insert")
 frutas = ['platano', 'naranja', 'durazno', 'limon']
@@ -106,6 +115,7 @@ print(frutas)           # ['platano', 'naranja', 'manzana', 'durazno', 'limon']
 frutas.insert(3, 'lime')   # ['platano', 'naranja', 'manzana', 'durazno', 'lime','limon',]
 print(frutas)
 
+enter()
 # remove
 print("remove")
 frutas = ['platano', 'naranja', 'durazno', 'limon']
@@ -114,6 +124,7 @@ print(frutas)  # ['naranja', 'durazno', 'limon']
 frutas.remove('limon')
 print(frutas)  # ['naranja', 'durazno']
 
+enter()
 # pop
 print("pop")
 frutas = ['platano', 'naranja', 'durazno', 'limon']
@@ -123,6 +134,7 @@ print(frutas)       # ['platano', 'naranja', 'durazno']
 frutas.pop(0)     
 print(frutas)       # ['naranja', 'durazno'] 
 
+enter()
 # del
 print("del")
 frutas = ['platano', 'naranja', 'durazno', 'limon']
@@ -134,18 +146,21 @@ print(frutas)       # ['naranja', 'limon']
 # del frutas
 print(frutas)       # "Esto debería dar como resultado: NameError: el nombre 'frutas' no está definido."
 
+enter()
 # clear
 print("clear")
 frutas = ['platano', 'naranja', 'durazno', 'limon']
 frutas.clear()     
 print(frutas)       # []
 
+enter()
 # copying a lits
 print("copying a lits")
 frutas = ['platano', 'naranja', 'durazno', 'limon']
 copiar_fruta = frutas.copy()     
 print(copiar_fruta)       # ['platano', 'naranja', 'durazno', 'limon']
 
+enter()
 # join
 print("join")
 numeros_positivos = [1, 2, 3,4,5]
@@ -158,6 +173,7 @@ vegetales = ['Tomates', 'Papas', 'Repollo','Cebolla', 'Zanahoria']
 frutas_y_vegetales = frutas + vegetales
 print(frutas_y_vegetales)
 
+enter()
 # join con extend
 print("join con extend")
 num1 = [0, 1, 2, 3]
@@ -181,6 +197,7 @@ print(frutas.count('naranja'))   # 1
 edades = [22, 19, 24, 25, 26, 24, 25, 24]
 print(edades.count(24))           # 3
 
+enter()
 # index
 print("index")
 frutas = ['platano', 'naranja', 'durazno', 'limon']
@@ -188,6 +205,7 @@ print(frutas.index('naranja'))   # 1
 edades = [22, 19, 24, 25, 26, 24, 25, 24]
 print(edades.index(24)) 
 
+enter()
 # Reverse
 print("Reverse")
 frutas = ['platano', 'naranja', 'durazno', 'limon']
@@ -197,6 +215,7 @@ edades = [22, 19, 24, 25, 26, 24, 25, 24]
 edades.reverse()
 print(edades) 
 
+enter()
 # sort
 print("sort")
 frutas = ['platano', 'naranja', 'durazno', 'limon']
