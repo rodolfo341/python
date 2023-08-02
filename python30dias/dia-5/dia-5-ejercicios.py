@@ -29,13 +29,13 @@ print(f"elemento del medio: {lista[len(lista)//2]}")
 print(f"ultimo elemento: {lista[-1]}\n")
 
 enter()
-print("Declara una lista llamada "mixed_data_types" y agrega tu (nombre, edad, altura, estado civil, dirección).")
+print("Declara una lista llamada \"mixed_data_types\" y agrega tu (nombre, edad, altura, estado civil, dirección).")
 # Declara una lista llamada "mixed_data_types" y agrega tu (nombre, edad, altura, estado civil, dirección).
 mixed_data_types = ["Rodolfo", 51, 175, "casado", "siempre viva 123"]
 print(f"lista mixed_data_types: {mixed_data_types}\n") 
 
 enter()
-print("Declara una variable de lista llamada "it_companies" y asigna los valores iniciales: ")
+print("Declara una variable de lista llamada \"it_companies\" y asigna los valores iniciales: ")
 print("Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon.")
 # Declara una variable de lista llamada "it_companies" y asigna los valores iniciales: 
 # Facebook, Google, Microsoft, Apple, IBM, Oracle y Amazon.
@@ -45,7 +45,7 @@ it_companies = ["Facebook", "Google", "Microsoft", "apple", "IBM", "Oracle", "Am
 print(f"it_companies: {it_companies}\n") 
 
 enter()
-enter("Imprime el número de compañías en la lista.")
+print("Imprime el número de compañías en la lista.")
 # Imprime el número de compañías en la lista.
 print(f"numero de compañias: {len(it_companies)}\n")
 
@@ -68,7 +68,7 @@ print('cambio Apple por tiktok')
 print(f"it_companies: {it_companies}\n") 
 
 enter()
-print("Agrega una compañía de TI a "it_companies".")
+print("Agrega una compañía de TI a \"it_companies\".")
 # Agrega una compañía de TI a "it_companies".
 it_companies.append('Borland')
 print('agrego Borland')
@@ -82,7 +82,7 @@ it_companies.insert(medio, 'AliBaba')
 print(f"it_companies: {it_companies}\n") 
 
 enter()
-print("Cambia uno de los nombres de las compañías de "it_companies" a mayúsculas (¡excluye IBM!).")
+print("Cambia uno de los nombres de las compañías de \"it_companies\" a mayúsculas (¡excluye IBM!).")
 # Cambia uno de los nombres de las compañías de "it_companies" a mayúsculas (¡excluye IBM!).
 print(f"Faecbook original: {it_companies[0]}") 
 it_companies[0] = it_companies[0].upper()
@@ -90,12 +90,14 @@ print(f"Faecbook en mayúsculas : {it_companies[0]}\n")
 
 print()
 # Combina las compañías de "it_companies" con un string "#; ".
-enter("Combina las compañías de \"it_companies\n" con un string ")
-it_companies_combinada = it_companies.join(it_companies)
+print("Combina las compañías de \"it_companies\" con un string ")
+
+it_companies_combinada = "#".join(it_companies)
+
 print(f"lista combinada con #: {it_companies_combinada}")
 
-enter(1)
-print("Comprueba si una cierta compañía existe en la lista "it_companies".")
+enter()
+print("Comprueba si una cierta compañía existe en la lista \"it_companies\".")
 # Comprueba si una cierta compañía existe en la lista "it_companies".
 if 'Google' in it_companies:
     print('Google esta en la lista\n')
@@ -124,22 +126,24 @@ print('\n')
 # Recorrer los últimos tres elementos con un bucle for
 for i in it_companies[-3:]:
    print(f'Compañia índice: {i}')
-
-print('\n')
+print()
 
 # Extrae la(s) compañía(s) de TI del medio de la lista.
-
-# it_companies.pop() borro un elemento para probar opción par
+# it_companies.append("kjhkjhkjhkjhkj")
 if len(it_companies) % 2 == 0:
-    print(it_companies[len(it_companies)//2])
-    print(it_companies[len(it_companies)//2 - 1])
+    print(f"del medio: {it_companies[len(it_companies)//2]}")
+    print(f"del medio: {it_companies[len(it_companies)//2 - 1]}")
 else:
-    print(it_companies[len(it_companies)//2])
-    
+    print(f"del medio: {it_companies[len(it_companies)//2]}")
+print()
 
+# Elimina la primera compañía de TI de la lista.
+print(it_companies)
+
+it_companies.pop(0)
+print(it_companies)
 
 """
-Elimina la primera compañía de TI de la lista.
 
 Elimina la(s) compañía(s) de TI del medio de la lista.
 
