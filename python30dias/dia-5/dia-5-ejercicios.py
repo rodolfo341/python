@@ -137,6 +137,7 @@ else:
     print(f"del medio: {it_companies[len(it_companies)//2]}")
 print()
 enter()
+<<<<<<< HEAD
 
 # Elimina la primera compañía de TI de la lista.
 
@@ -165,6 +166,34 @@ print()
 print(it_companies)
 it_companies.clear()
 print(it_companies)
+=======
+
+# Elimina la primera compañía de TI de la lista.
+
+print(it_companies)
+#"""
+it_companies.pop(0)
+print(it_companies)
+#"""
+# Elimina la(s) compañía(s) de TI del medio de la lista.
+if len(it_companies) % 2 == 0:
+    it_companies.pop(len(it_companies)//2)
+    it_companies.pop(len(it_companies)//2 - 1)
+else:
+    it_companies.pop(len(it_companies)//2)
+print(it_companies)
+enter()
+
+# Elimina la última compañía de TI de la lista.
+print(f"lista antes: {it_companies}")
+it_companies.pop()
+print(f"lista despues: {it_companies}")
+
+
+
+"""
+Elimina todas las compañías de TI de la lista.
+>>>>>>> 317fff7cd1ffd2b385b99f22db587d00f115a4eb
 
 #Destruye la lista de compañías de TI.
 del it_companies
