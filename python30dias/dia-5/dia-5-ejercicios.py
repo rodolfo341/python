@@ -175,6 +175,10 @@ del it_companies
 front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 back_end = ['Node', 'Express', 'MongoDB']
 
+lista_unida = front_end + back_end
+print(front_end)
+print(back_end)
+print(lista_unida)
 
 """
 Después de combinar las listas del punto 26, copia la lista combinada y asígnala a una variable llamada "full_stack". Luego, inserta Python y SQL después de Redux.
