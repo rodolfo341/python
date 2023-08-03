@@ -180,6 +180,11 @@ print(front_end)
 print(back_end)
 print(lista_unida)
 
-"""
-Después de combinar las listas del punto 26, copia la lista combinada y asígnala a una variable llamada "full_stack". Luego, inserta Python y SQL después de Redux.
-"""
+# Después de combinar las listas del punto 26, copia la lista combinada y asígnala a una variable 
+# llamada "full_stack". Luego, inserta Python y SQL después de Redux.
+
+full_stack = lista_unida
+full_stack.append("Python")
+full_stack.append("SQL")
+
+print(full_stack)
