@@ -14,8 +14,14 @@ def enter():
 #    Crear una tupla vacía
 tuplaVacia = ()
 print(f"tupla vacia: {tuplaVacia}")
+print(f"cantidad de veces que esta el elemento: {tuplaVacia.count(2)}")
+enter()
 
 #    Crea una tupla que contenga los nombres de tus hermanas y tus hermanos (los hermanos imaginarios están bien)
+tuplaHermanos = ("Papa", "Mama", "Diere", "Gonky", "Manchas")
+print(f"tupla hermanos: {tuplaHermanos}")
+enter()
+
 #    Unir tuplas de hermanos y hermanas y asignarlas a hermanos
 #    ¿Cuántos hermanos tiene usted?
 #    Modifique la tupla de hermanos y agregue el nombre de su padre y madre y asígnelo a family_members
