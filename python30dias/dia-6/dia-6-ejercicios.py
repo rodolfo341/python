@@ -12,6 +12,9 @@ def enter():
 
 # Ejercicios: Nivel 1
 #    Crear una tupla vacía
+tuplaVacia = ()
+print(f"tupla vacia: {tuplaVacia}")
+
 #    Crea una tupla que contenga los nombres de tus hermanas y tus hermanos (los hermanos imaginarios están bien)
 #    Unir tuplas de hermanos y hermanas y asignarlas a hermanos
 #    ¿Cuántos hermanos tiene usted?
