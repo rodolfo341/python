@@ -29,6 +29,11 @@ enter()
 #    Unir tuplas de hermanos y hermanas y asignarlas a hermanos
 tuplaUnion = tuplaHermanos + tuplaHermanas
 print(f"tupla union: {tuplaUnion}")
+enter()
 
 #    ¿Cuántos hermanos tiene usted?
+totalHermanos = len(tuplaUnion)
+print(f"El total de hermanos es: {totalHermanos}")
+enter()
+
 #    Modifique la tupla de hermanos y agregue el nombre de su padre y madre y asígnelo a family_members
