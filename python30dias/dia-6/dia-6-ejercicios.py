@@ -37,3 +37,6 @@ print(f"El total de hermanos es: {totalHermanos}")
 enter()
 
 #    Modifique la tupla de hermanos y agregue el nombre de su padre y madre y asígnelo a family_members
+
+family_members = tuplaUnion + ("mama","papa")
+print(f"totalHermanos + mama y papa: {family_members}")
