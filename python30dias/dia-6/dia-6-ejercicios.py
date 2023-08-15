@@ -76,8 +76,8 @@ print(f"Papa: {papa}")
 #       Une las tres tuplas y asígnalas a una variable llamada food_stuff_tp.
 tuplaFrutas = ("manzana", "pera", "naranja")
 tuplaVerduras = ("papa", "zapallo")
-tuplaUnion = tuplaFrutas + tuplaVerduras
-print(f"Tupla union: {tuplaUnion}")
+tuplaFrutasVerduras = tuplaFrutas + tuplaVerduras
+print(f"Tupla union: {tuplaFrutasVerduras}")
 
 # 3 Cambie la tupla about food_stuff_tp a una lista food_stuff_lt
 
