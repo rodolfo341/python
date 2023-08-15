@@ -59,7 +59,17 @@ print(f"totalHermanos + mama y papa: {family_members}")
 # Ejercicios: Nivel 2
 
 # 1 Desempaquetar hermanos y padres de family_members
-
+hijo1, hijo2, hijo3, hijo4, hijo5, hijo6, hijo7, hijo8, mama, papa = family_members
+print(f"Hijo1: {hijo1}") 
+print(f"Hijo2: {hijo2}") 
+print(f"Hijo3: {hijo3}") 
+print(f"Hijo4: {hijo4}") 
+print(f"Hijo5: {hijo5}") 
+print(f"Hijo6: {hijo6}") 
+print(f"Hijo7: {hijo7}") 
+print(f"Hijo8: {hijo8}")
+print(f"Mama: {mama}")
+print(f"Papa: {papa}") 
 
 # 2 Cree tuplas de frutas, verduras y productos animales. 
 #       Une las tres tuplas y asígnalas a una variable llamada food_stuff_tp.
