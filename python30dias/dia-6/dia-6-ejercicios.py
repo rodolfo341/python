@@ -4,14 +4,14 @@ def enter():
     msvcrt.getch()
     
 # Ejercicios: Nivel 1
-#    Crear una tupla vacía
-#    Crea una tupla que contenga los nombres de tus hermanas y tus hermanos (los hermanos imaginarios están bien)
-#    Unir tuplas de hermanos y hermanas y asignarlas a hermanos
-#    ¿Cuántos hermanos tiene usted?
-#    Modifique la tupla de hermanos y agregue el nombre de su padre y madre y asígnelo a family_members
+#  1  Crear una tupla vacía
+#  2  Crea una tupla que contenga los nombres de tus hermanas y tus hermanos (los hermanos imaginarios están bien)
+#  3  Unir tuplas de hermanos y hermanas y asignarlas a hermanos
+#  4  ¿Cuántos hermanos tiene usted?
+#  5  Modifique la tupla de hermanos y agregue el nombre de su padre y madre y asígnelo a family_members
 
 # Ejercicios: Nivel 1
-#    Crear una tupla vacía
+#   1 Crear una tupla vacía
 """
 tuplaVacia = ()
 print(f"tupla vacia: {tuplaVacia}")
@@ -19,24 +19,39 @@ print(f"cantidad de veces que esta el elemento: {tuplaVacia.count(2)}")
 enter()
 """
 
-#    Crea una tupla que contenga los nombres de tus hermanas y tus hermanos (los hermanos imaginarios están bien)
+# 2 Crea una tupla que contenga los nombres de tus hermanas y tus hermanos (los hermanos imaginarios están bien)
 tuplaHermanos = ("Ana", "Maria", "Sofia", "Laura")
 tuplaHermanas = ("Juan", "Carlos", "Andres", "Alejandro")
 print(f"tupla hermanos: {tuplaHermanos}")
 print(f"tupla hermanas: {tuplaHermanas}")
 enter()
 
-#    Unir tuplas de hermanos y hermanas y asignarlas a hermanos
+# 3 Unir tuplas de hermanos y hermanas y asignarlas a hermanos
 tuplaUnion = tuplaHermanos + tuplaHermanas
 print(f"tupla union: {tuplaUnion}")
 enter()
 
-#    ¿Cuántos hermanos tiene usted?
+# 4 ¿Cuántos hermanos tiene usted?
 totalHermanos = len(tuplaUnion)
 print(f"El total de hermanos es: {totalHermanos}")
 enter()
 
-#    Modifique la tupla de hermanos y agregue el nombre de su padre y madre y asígnelo a family_members
+# 5 Modifique la tupla de hermanos y agregue el nombre de su padre y madre y asígnelo a family_members
 
 family_members = tuplaUnion + ("mama","papa")
 print(f"totalHermanos + mama y papa: {family_members}")
+
+# Ejercicios: Nivel 2
+
+# 1 Desempaquetar hermanos y padres de family_members
+# 2 Cree tuplas de frutas, verduras y productos animales. 
+#       Une las tres tuplas y asígnalas a una variable llamada food_stuff_tp.
+# 3 Cambie la tupla about food_stuff_tp a una lista food_stuff_lt
+# 4 Rebane el artículo o artículos del medio de la tupla food_stuff_tp o la lista food_stuff_lt.
+# 5 Cortar los primeros tres elementos y los últimos tres elementos de la lista food_staff_lt
+# 6 Eliminar completamente la tupla food_staff_tp
+# 7 Compruebe si existe un elemento en la tupla:
+#       Comprobar si 'Estonia' es un país nórdico
+#       Comprobar si 'Islandia' es un país nórdico
+#           nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+
