@@ -55,3 +55,30 @@ print(f"totalHermanos + mama y papa: {family_members}")
 #       Comprobar si 'Islandia' es un país nórdico
 #           nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 
+
+# Ejercicios: Nivel 2
+
+# 1 Desempaquetar hermanos y padres de family_members
+
+
+# 2 Cree tuplas de frutas, verduras y productos animales. 
+#       Une las tres tuplas y asígnalas a una variable llamada food_stuff_tp.
+
+
+# 3 Cambie la tupla about food_stuff_tp a una lista food_stuff_lt
+
+
+# 4 Rebane el artículo o artículos del medio de la tupla food_stuff_tp o la lista food_stuff_lt.
+
+
+# 5 Cortar los primeros tres elementos y los últimos tres elementos de la lista food_staff_lt
+
+
+# 6 Eliminar completamente la tupla food_staff_tp
+
+
+# 7 Compruebe si existe un elemento en la tupla:
+#       Comprobar si 'Estonia' es un país nórdico
+#       Comprobar si 'Islandia' es un país nórdico
+#           nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+
