@@ -26,6 +26,7 @@ print(f"tupla hermanos: {tuplaHermanos}")
 print(f"tupla hermanas: {tuplaHermanas}")
 enter()
 
+
 # 3 Unir tuplas de hermanos y hermanas y asignarlas a hermanos
 tuplaUnion = tuplaHermanos + tuplaHermanas
 print(f"tupla union: {tuplaUnion}")
