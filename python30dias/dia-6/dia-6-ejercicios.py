@@ -73,14 +73,16 @@ print(f"Mama: {mama}")
 print(f"Papa: {papa}") 
 
 # 2 Cree tuplas de frutas, verduras y productos animales. 
-#       Une las tres tuplas y asígnalas a una variable llamada food_stuff_tp.
+#       Une las tres tuplas y asígnalas a una variable llamada tuplaFrutasVerduras.
 tuplaFrutas = ("manzana", "pera", "naranja")
 tuplaVerduras = ("papa", "zapallo")
 tuplaFrutasVerduras = tuplaFrutas + tuplaVerduras
 print(f"Tupla union: {tuplaFrutasVerduras}")
 
-# 3 Cambie la tupla about food_stuff_tp a una lista food_stuff_lt
-
+# 3 Cambie la tupla about tuplaFrutasVerduras a una lista food_stuff_lt
+print(f"Tipo de dato de tuplaFrutasVerduras {type(tuplaFrutasVerduras)}")
+listaFrutasVerduras = list(tuplaFrutasVerduras)
+print(f"Tipo de dato de listaFrutasVerduras {type(listaFrutasVerduras)}")
 
 # 4 Rebane el artículo o artículos del medio de la tupla food_stuff_tp o la lista food_stuff_lt.
 
