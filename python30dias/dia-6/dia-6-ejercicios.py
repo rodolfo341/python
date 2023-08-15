@@ -73,7 +73,10 @@ print(f"Papa: {papa}")
 
 # 2 Cree tuplas de frutas, verduras y productos animales. 
 #       Une las tres tuplas y asígnalas a una variable llamada food_stuff_tp.
-
+tuplaFrutas = ("manzana", "pera", "naranja")
+tuplaVerduras = ("papa", "zapallo")
+tuplaUnion = tuplaFrutas + tuplaVerduras
+print(f"Tupla union: {tuplaUnion}")
 
 # 3 Cambie la tupla about food_stuff_tp a una lista food_stuff_lt
 
