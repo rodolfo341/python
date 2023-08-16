@@ -41,6 +41,7 @@ enter()
 
 family_members = tuplaUnion + ("mama","papa")
 print(f"totalHermanos + mama y papa: {family_members}")
+enter()
 
 # Ejercicios: Nivel 2
 
@@ -56,7 +57,6 @@ print(f"totalHermanos + mama y papa: {family_members}")
 #       Comprobar si 'Islandia' es un país nórdico
 #           nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 
-
 # Ejercicios: Nivel 2
 
 # 1 Desempaquetar hermanos y padres de family_members
@@ -71,6 +71,7 @@ print(f"Hijo7: {hijo7}")
 print(f"Hijo8: {hijo8}")
 print(f"Mama: {mama}")
 print(f"Papa: {papa}") 
+enter()
 
 # 2 Cree tuplas de frutas, verduras y productos animales. 
 #       Une las tres tuplas y asígnalas a una variable llamada tuplaFrutasVerduras.
@@ -78,15 +79,30 @@ tuplaFrutas = ("manzana", "pera", "naranja")
 tuplaVerduras = ("papa", "zapallo")
 tuplaFrutasVerduras = tuplaFrutas + tuplaVerduras
 print(f"Tupla union: {tuplaFrutasVerduras}")
+enter()
 
 # 3 Cambie la tupla about tuplaFrutasVerduras a una lista food_stuff_lt
 print(f"Tipo de dato de tuplaFrutasVerduras {type(tuplaFrutasVerduras)}")
 listaFrutasVerduras = list(tuplaFrutasVerduras)
 print(f"Tipo de dato de listaFrutasVerduras {type(listaFrutasVerduras)}")
+enter()
 
 # 4 Rebane el artículo o artículos del medio de la tupla food_stuff_tp o la lista food_stuff_lt.
-
-
+indiceImpar = 0
+indicePar1 = 0
+indicePar2 = 0
+if len(listaFrutasVerduras) % 2 == 0:
+    indicePar1 = len(listaFrutasVerduras) // 2
+    indicePar2 = len(listaFrutasVerduras) // 2 - 1
+    listaFrutasVerduras = listaFrutasVerduras[:indicePar1+1]
+    listaFrutasVerduras = listaFrutasVerduras[indicePar2:]
+    print(listaFrutasVerduras)
+else:
+    indiceImpar = len(listaFrutasVerduras) // 2
+    listaFrutasVerduras = listaFrutasVerduras[:indiceImpar + 1]
+    listaFrutasVerduras = listaFrutasVerduras[indiceImpar:]
+    print(listaFrutasVerduras)
+    
 # 5 Cortar los primeros tres elementos y los últimos tres elementos de la lista food_staff_lt
 
 
