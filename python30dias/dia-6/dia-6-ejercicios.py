@@ -106,6 +106,7 @@ else:
 # 5 Cortar los primeros tres elementos y los últimos tres elementos de la lista food_staff_lt
 
 
+
 # 6 Eliminar completamente la tupla food_staff_tp
 
 
